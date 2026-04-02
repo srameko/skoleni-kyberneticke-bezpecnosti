@@ -2,7 +2,7 @@
 
 An interactive, browser-based security awareness training with scenario-based learning and downloadable certificates.
 
-**Live app / Živá aplikace:** https://ondrejsramek.github.io/skoleni-kyberneticke-bezpecnosti/
+**Live app / Živá aplikace:** https://srameko.github.io/skoleni-kyberneticke-bezpecnosti/
 
 ---
 
