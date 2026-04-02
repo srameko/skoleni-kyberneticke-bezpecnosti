@@ -1110,7 +1110,7 @@ Object.assign(SCENARIO_TRANSLATIONS, {
     vishing: {
       title:"Naléhav\u00fd hovor o platb\u011b",
       desc:"Neo\u010dek\u00e1van\u00fd telefonn\u00ed hovor po\u017eaduje okam\u017eitou akci v souvislosti s \u00fadajn\u011b neprovedenou platbou.",
-      difficulty:"St\u0159edn\u00ed", badge:"SOCI\u00c1LN\u00cd IN\u017d EN\u00ddRSTV\u00cd",
+      difficulty:"St\u0159edn\u00ed", badge:"SOCI\u00c1LN\u00cd IN\u017dEN\u00ddRSTV\u00cd",
       lessons:[
         "Legitimn\u00ed banky a dodavatel\u00e9 v\u00e1s nikdy nebudou tla\u010dit, abyste okam\u017eit\u011b sd\u011blili \u00fadaje o kart\u011b po telefonu.",
         "ID vol\u00e1n\u00ed lze zfalzifikovat \u2014 zn\u00e1m\u00e9 \u010d\u00edslo nezaru\u010duje legitimn\u00edho vol\u00e1n\u00edho.",
@@ -1129,7 +1129,7 @@ Object.assign(SCENARIO_TRANSLATIONS, {
           choices:[
             {text:"Poskytnout \u00fadaje o kart\u011b \u2014 nem\u016f\u017eeme si dovolit ztratit tuto slu\u017ebu!",feedback:"Nikdy neposkytujte platebn\u00ed \u00fadaje p\u0159\u00edch\u00e1zej\u00edcímu vol\u00e1n\u00edmu. Podvodn\u00edci zji\u0161\u0165uj\u00ed, kter\u00e9 dodavatele firmy vyu\u017e\u00edvaj\u00ed, a vytv\u00e1\u0159ej\u00ed nal\u00e9havost, aby obli\u0161li v\u00e1\u0161 kritick\u00fd \u00fasudek. Toto je klasick\u00fd vishingov\u00fd \u00fatoky."},
             {text:"\"Mus\u00edm to ov\u011b\u0159it. Zavol\u00e1m na va\u0161e \u00fa\u010detn\u00ed odd\u011blen\u00ed na \u010d\u00edsle, kter\u00e9 m\u00e1me v evidenci.\"",feedback:"Toto je spr\u00e1vn\u00e1 odpov\u011b\u010f. Zav\u011b\u0161en\u00ed a zp\u011btn\u00e9 zavol\u00e1n\u00ed na ov\u011b\u0159en\u00e9 \u010d\u00edslo p\u0159eru\u0161\u00ed kontrolu podvodn\u00edka nad rozhovorem. Legitimn\u00ed dodavatel\u00e9 pochop\u00ed a ocen\u00ed va\u0161i opatrnost."},
-            {text:"Po\u017e\u00e1dat Janu, aby ov\u011b\u0159ila n\u011bkter\u00e9 detaily \u00fa\u010dtu, aby prok\u00e1zala sv\u00e9 opra\u010ddov\u00e1n\u00ed.",feedback:"Podvodn\u00edci m\u00edvaj\u00ed dostatek informac\u00ed na to, aby zn\u011bli p\u0159esv\u011bd\u010div\u011b \u2014 \u010d\u00edslo smlouvy, jm\u00e9no account mana\u017eera, platebn\u00ed historii. Jejich \u201eov\u011b\u0159en\u00ed\u201c nic nedokazuje."},
+            {text:"Po\u017e\u00e1dat Janu, aby ov\u011b\u0159ila n\u011bkter\u00e9 detaily \u00fa\u010dtu, aby prok\u00e1zala sv\u00e9 opr\u00e1vn\u011bnost.",feedback:"Podvodn\u00edci m\u00edvaj\u00ed dostatek informac\u00ed na to, aby zn\u011bli p\u0159esv\u011bd\u010div\u011b \u2014 \u010d\u00edslo smlouvy, jm\u00e9no account mana\u017eera, platebn\u00ed historii. Jejich \u201eov\u011b\u0159en\u00ed\u201c nic nedokazuje."},
             {text:"D\u00e1t ji na \u010dek\u00e1n\u00ed, zat\u00edmco rychle zkontrolujete, zda platba skute\u010dn\u011b selhala.",feedback:"Ponech\u00e1n\u00ed podvodn\u00edka na lince zachov\u00e1v\u00e1 jejich p\u0159\u00edle\u017eitost v\u00e1s pod tlakem. Nejbezpe\u010dn\u011bj\u0161\u00edm p\u0159\u00edstupem je hovor ukon\u010dit a zavolat zp\u011bt na ov\u011b\u0159en\u00e9 \u010d\u00edslo."}
           ]
         },
@@ -1167,7 +1167,7 @@ Object.assign(SCENARIO_TRANSLATIONS, {
           narrative:"<strong>13:45 \u2014 Zpr\u00e1va v Teams od Martina.</strong> Martina z marketingu zn\u00e1te \u2014 je obl\u00edben\u00fd a tohle zn\u00ed jako skute\u010dn\u00fd \u010dasov\u00fd tlak. Ale \u017e\u00e1d\u00e1 v\u00e1s, abyste obe\u0161li proces schvalov\u00e1n\u00ed p\u0159\u00edstupu. Co ud\u011bl\u00e1te?",
           chatData:{messages:[
             {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Ahoj! Mal\u00e1 laskavost \u2014 pot\u0159ebuji okam\u017eit\u00fd p\u0159\u00edstup k dashboardu analytiky z\u00e1kazn\u00edk\u016f. Moje \u017e\u00e1dost o p\u0159\u00edstup se zasekla ve front\u011b ke schv\u00e1len\u00ed a ve 16:00 m\u00e1m prezentaci pro p\u0159edstavenstvo."},
-            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Mohl/a bys jednoduše sd\u00edlet sv\u00e9 p\u0159ihla\u0161ovac\u00ed \u00fadaje nebo m\u011b p\u0159idat jako prohl\u00ed\u017eej\u00edc\u00edho? Je to stejn\u011b jen pro \u010dten\u00ed, nic se nestane. Pod\u00e1m \u0159\u00e1dnou \u017e\u00e1dost pot\u00f3m, slibuj\u00ed! \ud83d\ude4f"}
+            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Mohl/a bys jednoduše sd\u00edlet sv\u00e9 p\u0159ihla\u0161ovac\u00ed \u00fadaje nebo m\u011b p\u0159idat jako prohl\u00ed\u017eej\u00edc\u00edho? Je to stejn\u011b jen pro \u010dten\u00ed, nic se nestane. Pod\u00e1m \u0159\u00e1dnou \u017e\u00e1dost pot\u00f3m, slibuji! \ud83d\ude4f"}
           ]},
           choices:[
             {text:"Sd\u00edlet p\u0159ihla\u0161ovac\u00ed \u00fadaje jen tentokr\u00e1t \u2014 Martin je d\u016fv\u011bryhodn\u00fd a jde jen o \u010dten\u00ed.",feedback:"Nikdy nesdílejte p\u0159ihla\u0161ovac\u00ed \u00fadaje, ani s d\u016fv\u011bryhodn\u00fdmi kolegy. Sd\u00edlen\u00e9 \u00fadaje znemožňuj\u00ed audit, kdo k \u010demu p\u0159istupoval, poru\u0161uj\u00ed compliance a pokud se n\u011bco pokazí, nesete zodpov\u011bdnost vy."},
@@ -1258,7 +1258,7 @@ Object.assign(SCENARIO_TRANSLATIONS, {
         {
           narrative:"<strong>14:15 \u2014 Dostali ste spr\u00e1vu v Teams</strong> od niekoho, kto sa vyd\u00e1va za pracovn\u00edka IT helpdesku. Hovor\u00ed, \u017ee je k dispoz\u00edcii kritick\u00e1 bezpe\u010dnostn\u00e1 aktualiz\u00e1cia. V\u0161imnete si, \u017ee t\u00fato osobu ste e\u0161te nikdy nevideli. \u010co urobíte?",
           chatData:{messages:[
-            {text:"Dobr\u00fd deň! Dnes poobede zavádzame kritickú bezpe\u010dnostnú aktualiz\u00e1ciu pre v\u0161etky \u00fa\u010dty Office 365. Na jej aplik\u00e1ciu potrebujem overi\u0165 va\u0161u toto\u017enos\u0165."},
+            {sender:"Tom\u00e1\u0161 Kov\u00e1\u010d \u2014 IT Helpdesk",avatar:"TK",text:"Dobr\u00fd deň! Dnes poobede zavádzame kritickú bezpe\u010dnostnú aktualiz\u00e1ciu pre v\u0161etky \u00fa\u010dty Office 365. Na jej aplik\u00e1ciu potrebujem overi\u0165 va\u0161u toto\u017enos\u0165."},
             {sender:"Tom\u00e1\u0161 Kov\u00e1\u010d \u2014 IT Helpdesk",avatar:"TK",text:"Pros\u00edm, prejs\u0165te na <strong>microsoft.com/devicelogin</strong> a zadajte tento k\u00f3d. Zaberie v\u00e1m to len 30 sek\u00fand:"}
           ]},
           choices:[
@@ -1344,7 +1344,7 @@ Object.assign(SCENARIO_TRANSLATIONS, {
         {
           narrative:"<strong>13:45 \u2014 Spr\u00e1va v Teams od Martina.</strong> Martina z marketingu pozn\u00e1te \u2014 je ob\u013e\u00faben\u00fd a toto zn\u00ed ako skuto\u010dn\u00fd \u010dasov\u00fd tlak. Ale \u017eiada v\u00e1s, aby ste obišli proces schvaľovania pr\u00edstupu. \u010co urobíte?",
           chatData:{messages:[
-            {text:"Ahoj! Mal\u00e1 l\u00e1skavos\u0165 \u2014 potrebujem okam\u017eit\u00fd pr\u00edstup k dashboardu analytiky z\u00e1kazn\u00edkov. Moja \u017eiadosť o pr\u00edstup sa zasekla v rade na schválenie a o 16:00 m\u00e1m prezent\u00e1ciu pre predstavenstvo."},
+            {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"Ahoj! Mal\u00e1 l\u00e1skavos\u0165 \u2014 potrebujem okam\u017eit\u00fd pr\u00edstup k dashboardu analytiky z\u00e1kazn\u00edkov. Moja \u017eiadosť o pr\u00edstup sa zasekla v rade na schválenie a o 16:00 m\u00e1m prezent\u00e1ciu pre predstavenstvo."},
             {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"Mohol/a by si jednoducho zdie\u013ea\u0165 prihlasovacie \u00fadaje alebo ma prida\u0165 ako preh\u013ead\u00e1vaj\u00faceho? Je to aj tak len na \u010d\u00edtanie, ni\u010d sa nestane. Pod\u00e1m riadnu \u017eiados\u0165 pot\u00f3m, \u013eub\u00edm! \ud83d\ude4f"}
           ]},
           choices:[
