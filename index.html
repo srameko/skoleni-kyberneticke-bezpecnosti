@@ -32,6 +32,25 @@
     --glow-green: rgba(16, 185, 129, 0.3);
   }
 
+  body.light-mode {
+    --bg-dark: #f0f4f8;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f1f5f9;
+    --bg-inset: #e8edf3;
+    --bg-darker: #dde3eb;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --border: #cbd5e1;
+    --surface-subtle: rgba(0, 0, 0, 0.04);
+    --overlay-dark: rgba(0, 0, 0, 0.06);
+    --feedback-good-text: #166534;
+    --feedback-bad-text: #991b1b;
+    --glow-blue: rgba(59, 130, 246, 0.15);
+    --glow-red: rgba(239, 68, 68, 0.15);
+    --glow-green: rgba(16, 185, 129, 0.15);
+  }
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
@@ -77,6 +96,27 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* Theme toggle */
+  .theme-toggle {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    z-index: 100;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .theme-toggle:hover { transform: scale(1.1); }
 
   /* Header */
   .header {
@@ -1038,6 +1078,8 @@
 <div class="bg-glow bg-glow-1"></div>
 <div class="bg-glow bg-glow-2"></div>
 
+<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle light/dark mode">&#9728;</button>
+
 <div class="app-container">
   <div class="header">
     <div class="logo"><span class="logo-icon">&#128737;</span>CyberQuest</div>
@@ -1108,7 +1150,7 @@
   <div class="screen" id="completionScreen"></div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+<!-- jsPDF loaded dynamically on demand -->
 <script src="translations.js"></script>
 
 <script>
@@ -1384,6 +1426,20 @@ var SCENARIOS_EN = [
 ];
 
 // ===== STATE =====
+// ===== THEME =====
+(function() {
+  if (localStorage.getItem('cq_theme') === 'light') {
+    document.body.classList.add('light-mode');
+    document.getElementById('themeToggle').textContent = '\u263D'; // moon
+  }
+})();
+
+function toggleTheme() {
+  var isLight = document.body.classList.toggle('light-mode');
+  document.getElementById('themeToggle').textContent = isLight ? '\u263D' : '\u2600';
+  localStorage.setItem('cq_theme', isLight ? 'light' : 'dark');
+}
+
 var state = {
   lang: localStorage.getItem('cq_lang') || 'en',
   playerName: '',
@@ -1667,12 +1723,45 @@ function showCompletion() {
 }
 
 // ===== PDF GENERATION =====
+var PDF_CDNS = [
+  'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js',
+  'https://cdn.jsdelivr.net/npm/jspdf@2.5.2/dist/jspdf.umd.min.js',
+  'https://unpkg.com/jspdf@2.5.2/dist/jspdf.umd.min.js'
+];
+
+function loadScript(src) {
+  return new Promise(function(resolve, reject) {
+    var s = document.createElement('script');
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+function loadJsPDF() {
+  var lib = window.jspdf || window.jsPDF;
+  if (lib) return Promise.resolve(lib);
+  var chain = Promise.reject(new Error('start'));
+  PDF_CDNS.forEach(function(url) {
+    chain = chain.catch(function() { return loadScript(url); });
+  });
+  return chain.then(function() {
+    var lib = window.jspdf || window.jsPDF;
+    if (!lib) throw new Error('not found after load');
+    return lib;
+  });
+}
+
 function generatePDF() {
-  var jsPDFLib = window.jspdf || window.jsPDF;
-  if (!jsPDFLib) {
+  loadJsPDF().then(function(jsPDFLib) {
+    _buildPDF(jsPDFLib);
+  }).catch(function() {
     alert('PDF library failed to load. Please check your internet connection and try again.');
-    return;
-  }
+  });
+}
+
+function _buildPDF(jsPDFLib) {
   var doc = new jsPDFLib.jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
   var w = 297, h = 210;
   var today = new Date();
