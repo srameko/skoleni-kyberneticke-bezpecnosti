@@ -1054,6 +1054,8 @@
         <button class="lang-btn" onclick="setLang('de')"><span class="lang-flag">&#127465;&#127466;</span> DE</button>
         <button class="lang-btn" onclick="setLang('es')"><span class="lang-flag">&#127466;&#127480;</span> ES</button>
         <button class="lang-btn" onclick="setLang('it')"><span class="lang-flag">&#127470;&#127481;</span> IT</button>
+        <button class="lang-btn" onclick="setLang('cs')"><span class="lang-flag">&#127464;&#127487;</span> CS</button>
+        <button class="lang-btn" onclick="setLang('sk')"><span class="lang-flag">&#127480;&#127472;</span> SK</button>
       </div>
       <div class="welcome-title" id="welcomeTitle">Welcome to CyberQuest</div>
       <div class="welcome-desc" id="welcomeDesc">
@@ -1659,7 +1661,11 @@ function showCompletion() {
 
 // ===== PDF GENERATION =====
 function generatePDF() {
-  var jsPDFLib = window.jspdf;
+  var jsPDFLib = window.jspdf || window.jsPDF;
+  if (!jsPDFLib) {
+    alert('PDF library failed to load. Please check your internet connection and try again.');
+    return;
+  }
   var doc = new jsPDFLib.jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
   var w = 297, h = 210;
   var today = new Date();
@@ -1767,7 +1773,20 @@ function generatePDF() {
   var certId = 'CQ-' + today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + String(today.getDate()).padStart(2,'0') + '-' + Math.random().toString(36).substring(2,8).toUpperCase();
   doc.text('Certificate ID: ' + certId, w/2, 195, { align: 'center' });
 
-  doc.save('CyberQuest_Certificate_' + state.playerName.replace(/\s+/g,'_') + '.pdf');
+  var filename = 'CyberQuest_Certificate_' + state.playerName.replace(/\s+/g,'_') + '.pdf';
+  try {
+    doc.save(filename);
+  } catch(e) {
+    // Fallback: open PDF in new tab if direct download is blocked
+    var blob = doc.output('blob');
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function() { document.body.removeChild(a); URL.revokeObjectURL(url); }, 1000);
+  }
 }
 
 // ===== NAVIGATION =====
