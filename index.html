@@ -11,6 +11,8 @@
     --bg-dark: #0a0e1a;
     --bg-card: #131829;
     --bg-card-hover: #1a2035;
+    --bg-inset: #1a1f2e;
+    --bg-darker: #0d1117;
     --accent-blue: #3b82f6;
     --accent-cyan: #06b6d4;
     --accent-green: #10b981;
@@ -21,6 +23,10 @@
     --text-secondary: #94a3b8;
     --text-muted: #64748b;
     --border: #1e293b;
+    --surface-subtle: rgba(255, 255, 255, 0.05);
+    --overlay-dark: rgba(0, 0, 0, 0.2);
+    --feedback-good-text: #86efac;
+    --feedback-bad-text: #fca5a5;
     --glow-blue: rgba(59, 130, 246, 0.3);
     --glow-red: rgba(239, 68, 68, 0.3);
     --glow-green: rgba(16, 185, 129, 0.3);
@@ -1131,7 +1137,8 @@ function getScenarios() {
           merged.chatData = Object.assign({}, step.chatData, {
             messages: step.chatData.messages.map(function(m, mi) {
               var tm = ts.chatData.messages[mi];
-              return tm ? Object.assign({}, m, { text: tm.text }) : m;
+              // Merge all provided fields (text, sender, avatar, …)
+              return tm ? Object.assign({}, m, tm) : m;
             })
           });
         }
