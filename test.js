@@ -49,7 +49,7 @@ const REQUIRED_LANG_KEYS = [
   'scenarioComplete', 'scenarioScore', 'scenariosDone', 'totalScore',
   'viewCert', 'trainingComplete', 'congratsMsg', 'certOrg', 'certTitle',
   'certSubtitle', 'thisCertifies', 'certDesc', 'certScoreLabel',
-  'certAwardedOn', 'downloadCert', 'completedBadge', 'viewCertBtn',
+  'certAwardedOn', 'certIdLabel', 'certCompletedTasks', 'certPointsLabel', 'downloadCert', 'completedBadge', 'viewCertBtn',
   'outlookInbox', 'deviceCodeLabel', 'emailFrom', 'emailTo', 'emailSubject',
   'diffMedium', 'diffHard', 'dateLocale'
 ];

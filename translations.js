@@ -6,21 +6,21 @@ const LANG = {
     welcomeDesc:"You're about to face real-world security scenarios. Make the right calls, learn from mistakes, and earn your Security Awareness Certificate.",
     nameLabel:'Enter your full name',
     namePlaceholder:'e.g. Alex Johnson',
-    startBtn:'Begin Training \u2192',
+    startBtn:'Begin Training →',
     menuIntro:'<strong>Choose a scenario</strong> to begin your training. Each one puts you in a real-world situation where you must make the right call.',
     scoreLabel:'Score',
     scenariosLabel:'Scenarios',
     streakLabel:'Streak',
-    correct:'\u2714 Correct!',
-    wrong:'\u2718 Not the best choice',
-    continueBtn:'Continue \u2192',
-    backBtn:'\u2190 Back to Scenarios',
+    correct:'✔ Correct!',
+    wrong:'✘ Not the best choice',
+    continueBtn:'Continue →',
+    backBtn:'← Back to Scenarios',
     keyTakeaways:'&#128218; Key Takeaways',
     scenarioComplete:'Scenario Complete!',
     scenarioScore:'Scenario Score',
     scenariosDone:'Scenarios Done',
     totalScore:'Total Score',
-    viewCert:'View Certificate \u2192',
+    viewCert:'View Certificate →',
     trainingComplete:'Training Complete!',
     congratsMsg:"Congratulations, {name}! You've completed all security awareness scenarios.",
     certOrg:'CYBERQUEST SECURITY TRAINING',
@@ -30,10 +30,13 @@ const LANG = {
     certDesc:'has successfully completed all four interactive security awareness training scenarios',
     certScoreLabel:'Overall Score',
     certAwardedOn:'Awarded on',
+    certIdLabel:'Certificate ID',
+    certCompletedTasks:'Completed Scenarios',
+    certPointsLabel:'Points',
     downloadCert:'&#128196; Download PDF Certificate',
     completedBadge:'COMPLETED',
     viewCertBtn:'&#127891; View Your Certificate',
-    outlookInbox:'Outlook \u2014 Inbox',
+    outlookInbox:'Outlook — Inbox',
     deviceCodeLabel:'Enter this code to authenticate',
     emailFrom:'From:',
     emailTo:'To:',
@@ -43,43 +46,46 @@ const LANG = {
     dateLocale:'en-GB'
   },
   fr: {
-    tagline:'Formation Interactive \u00e0 la S\u00e9curisation Informatique',
+    tagline:'Formation Interactive à la Sécurisation Informatique',
     welcomeTitle:'Bienvenue sur CyberQuest',
-    welcomeDesc:"Vous \u00eates sur le point d'affronter des sc\u00e9narios de s\u00e9curit\u00e9 r\u00e9els. Prenez les bonnes d\u00e9cisions, apprenez de vos erreurs et obtenez votre certificat.",
+    welcomeDesc:"Vous êtes sur le point d'affronter des scénarios de sécurité réels. Prenez les bonnes décisions, apprenez de vos erreurs et obtenez votre certificat.",
     nameLabel:'Entrez votre nom complet',
     namePlaceholder:'ex. Jean Dupont',
-    startBtn:'Commencer la formation \u2192',
-    menuIntro:'<strong>Choisissez un sc\u00e9nario</strong> pour commencer votre formation. Chacun vous place dans une situation r\u00e9elle o\u00f9 vous devez faire le bon choix.',
+    startBtn:'Commencer la formation →',
+    menuIntro:'<strong>Choisissez un scénario</strong> pour commencer votre formation. Chacun vous place dans une situation réelle où vous devez faire le bon choix.',
     scoreLabel:'Score',
-    scenariosLabel:'Sc\u00e9narios',
-    streakLabel:'S\u00e9rie',
-    correct:'\u2714 Correct\u00a0!',
-    wrong:'\u2718 Pas le meilleur choix',
-    continueBtn:'Continuer \u2192',
-    backBtn:'\u2190 Retour aux sc\u00e9narios',
-    keyTakeaways:'&#128218; Points cl\u00e9s',
-    scenarioComplete:'Sc\u00e9nario termin\u00e9\u00a0!',
-    scenarioScore:'Score du sc\u00e9nario',
-    scenariosDone:'Sc\u00e9narios termin\u00e9s',
+    scenariosLabel:'Scénarios',
+    streakLabel:'Série',
+    correct:'✔ Correct !',
+    wrong:'✘ Pas le meilleur choix',
+    continueBtn:'Continuer →',
+    backBtn:'← Retour aux scénarios',
+    keyTakeaways:'&#128218; Points clés',
+    scenarioComplete:'Scénario terminé !',
+    scenarioScore:'Score du scénario',
+    scenariosDone:'Scénarios terminés',
     totalScore:'Score total',
-    viewCert:'Voir le certificat \u2192',
-    trainingComplete:'Formation termin\u00e9e\u00a0!',
-    congratsMsg:'F\u00e9licitations, {name}\u00a0! Vous avez termin\u00e9 tous les sc\u00e9narios de sensibilisation \u00e0 la s\u00e9curit\u00e9.',
-    certOrg:'CYBERQUEST FORMATION \u00c0 LA S\u00c9CURIT\u00c9',
-    certTitle:'Certificat de R\u00e9ussite',
-    certSubtitle:'Programme de Formation \u00e0 la Sensibilisation \u00e0 la S\u00e9curit\u00e9',
+    viewCert:'Voir le certificat →',
+    trainingComplete:'Formation terminée !',
+    congratsMsg:'Félicitations, {name} ! Vous avez terminé tous les scénarios de sensibilisation à la sécurité.',
+    certOrg:'CYBERQUEST FORMATION À LA SÉCURITÉ',
+    certTitle:'Certificat de Réussite',
+    certSubtitle:'Programme de Formation à la Sensibilisation à la Sécurité',
     thisCertifies:'Ceci certifie que',
-    certDesc:'a r\u00e9ussi avec succ\u00e8s les quatre sc\u00e9narios interactifs de sensibilisation \u00e0 la s\u00e9curit\u00e9',
+    certDesc:'a réussi avec succès les quatre scénarios interactifs de sensibilisation à la sécurité',
     certScoreLabel:'Score global',
-    certAwardedOn:'D\u00e9cern\u00e9 le',
-    downloadCert:'&#128196; T\u00e9l\u00e9charger le certificat PDF',
-    completedBadge:'TERMIN\u00c9',
+    certAwardedOn:'Décerné le',
+    certIdLabel:'ID du certificat',
+    certCompletedTasks:'Scénarios terminés',
+    certPointsLabel:'Points',
+    downloadCert:'&#128196; Télécharger le certificat PDF',
+    completedBadge:'TERMINÉ',
     viewCertBtn:'&#127891; Voir votre certificat',
-    outlookInbox:'Outlook \u2014 Bo\u00eete de r\u00e9ception',
+    outlookInbox:'Outlook — Boîte de réception',
     deviceCodeLabel:'Entrez ce code pour vous authentifier',
-    emailFrom:'De\u00a0:',
-    emailTo:'\u00c0\u00a0:',
-    emailSubject:'Objet\u00a0:',
+    emailFrom:'De :',
+    emailTo:'À :',
+    emailSubject:'Objet :',
     diffMedium:'Moyen',
     diffHard:'Difficile',
     dateLocale:'fr-FR'
@@ -87,37 +93,40 @@ const LANG = {
   de: {
     tagline:'Interaktives Sicherheitsbewusstseinstraining',
     welcomeTitle:'Willkommen bei CyberQuest',
-    welcomeDesc:'Sie stehen kurz davor, reale Sicherheitsszenarien zu bew\u00e4ltigen. Treffen Sie die richtigen Entscheidungen, lernen Sie aus Fehlern und verdienen Sie Ihr Zertifikat.',
-    nameLabel:'Vollst\u00e4ndigen Namen eingeben',
+    welcomeDesc:'Sie stehen kurz davor, reale Sicherheitsszenarien zu bewältigen. Treffen Sie die richtigen Entscheidungen, lernen Sie aus Fehlern und verdienen Sie Ihr Zertifikat.',
+    nameLabel:'Vollständigen Namen eingeben',
     namePlaceholder:'z.B. Max Mustermann',
-    startBtn:'Training beginnen \u2192',
-    menuIntro:'<strong>W\u00e4hlen Sie ein Szenario</strong>, um Ihr Training zu beginnen. Jedes versetzt Sie in eine reale Situation, in der Sie die richtige Entscheidung treffen m\u00fcssen.',
+    startBtn:'Training beginnen →',
+    menuIntro:'<strong>Wählen Sie ein Szenario</strong>, um Ihr Training zu beginnen. Jedes versetzt Sie in eine reale Situation, in der Sie die richtige Entscheidung treffen müssen.',
     scoreLabel:'Punkte',
     scenariosLabel:'Szenarien',
     streakLabel:'Serie',
-    correct:'\u2714 Richtig!',
-    wrong:'\u2718 Nicht die beste Wahl',
-    continueBtn:'Weiter \u2192',
-    backBtn:'\u2190 Zur\u00fcck zu den Szenarien',
+    correct:'✔ Richtig!',
+    wrong:'✘ Nicht die beste Wahl',
+    continueBtn:'Weiter →',
+    backBtn:'← Zurück zu den Szenarien',
     keyTakeaways:'&#128218; Wichtigste Erkenntnisse',
     scenarioComplete:'Szenario abgeschlossen!',
     scenarioScore:'Szenario-Punkte',
     scenariosDone:'Abgeschlossene Szenarien',
     totalScore:'Gesamtpunktzahl',
-    viewCert:'Zertifikat anzeigen \u2192',
+    viewCert:'Zertifikat anzeigen →',
     trainingComplete:'Training abgeschlossen!',
-    congratsMsg:'Herzlichen Gl\u00fcckwunsch, {name}! Sie haben alle Sicherheitsbewusstseins-Szenarien abgeschlossen.',
+    congratsMsg:'Herzlichen Glückwunsch, {name}! Sie haben alle Sicherheitsbewusstseins-Szenarien abgeschlossen.',
     certOrg:'CYBERQUEST SICHERHEITSTRAINING',
     certTitle:'Abschlusszertifikat',
     certSubtitle:'Sicherheitsbewusstseinstraining-Programm',
-    thisCertifies:'Dies best\u00e4tigt, dass',
+    thisCertifies:'Dies bestätigt, dass',
     certDesc:'alle vier interaktiven Sicherheitsbewusstseinstraining-Szenarien erfolgreich abgeschlossen hat',
     certScoreLabel:'Gesamtergebnis',
     certAwardedOn:'Verliehen am',
+    certIdLabel:'Zertifikats-ID',
+    certCompletedTasks:'Abgeschlossene Szenarien',
+    certPointsLabel:'Punkte',
     downloadCert:'&#128196; PDF-Zertifikat herunterladen',
     completedBadge:'ABGESCHLOSSEN',
     viewCertBtn:'&#127891; Ihr Zertifikat anzeigen',
-    outlookInbox:'Outlook \u2014 Posteingang',
+    outlookInbox:'Outlook — Posteingang',
     deviceCodeLabel:'Geben Sie diesen Code zur Authentifizierung ein',
     emailFrom:'Von:',
     emailTo:'An:',
@@ -127,45 +136,48 @@ const LANG = {
     dateLocale:'de-DE'
   },
   es: {
-    tagline:'Formaci\u00f3n Interactiva en Concienciaci\u00f3n sobre Seguridad',
+    tagline:'Formación Interactiva en Concienciación sobre Seguridad',
     welcomeTitle:'Bienvenido a CyberQuest',
-    welcomeDesc:'Est\u00e1s a punto de enfrentarte a escenarios de seguridad del mundo real. Toma las decisiones correctas, aprende de tus errores y consigue tu certificado.',
+    welcomeDesc:'Estás a punto de enfrentarte a escenarios de seguridad del mundo real. Toma las decisiones correctas, aprende de tus errores y consigue tu certificado.',
     nameLabel:'Introduce tu nombre completo',
-    namePlaceholder:'ej. Juan Garc\u00eda',
-    startBtn:'Comenzar la formaci\u00f3n \u2192',
-    menuIntro:'<strong>Elige un escenario</strong> para comenzar tu formaci\u00f3n. Cada uno te pone en una situaci\u00f3n real donde debes tomar la decisi\u00f3n correcta.',
-    scoreLabel:'Puntuaci\u00f3n',
+    namePlaceholder:'ej. Juan García',
+    startBtn:'Comenzar la formación →',
+    menuIntro:'<strong>Elige un escenario</strong> para comenzar tu formación. Cada uno te pone en una situación real donde debes tomar la decisión correcta.',
+    scoreLabel:'Puntuación',
     scenariosLabel:'Escenarios',
     streakLabel:'Racha',
-    correct:'\u2714 \u00a1Correcto!',
-    wrong:'\u2718 No es la mejor opci\u00f3n',
-    continueBtn:'Continuar \u2192',
-    backBtn:'\u2190 Volver a los escenarios',
+    correct:'✔ ¡Correcto!',
+    wrong:'✘ No es la mejor opción',
+    continueBtn:'Continuar →',
+    backBtn:'← Volver a los escenarios',
     keyTakeaways:'&#128218; Puntos clave',
-    scenarioComplete:'\u00a1Escenario completado!',
-    scenarioScore:'Puntuaci\u00f3n del escenario',
+    scenarioComplete:'¡Escenario completado!',
+    scenarioScore:'Puntuación del escenario',
     scenariosDone:'Escenarios completados',
-    totalScore:'Puntuaci\u00f3n total',
-    viewCert:'Ver certificado \u2192',
-    trainingComplete:'\u00a1Formaci\u00f3n completada!',
-    congratsMsg:'\u00a1Felicidades, {name}! Has completado todos los escenarios de concienciaci\u00f3n sobre seguridad.',
-    certOrg:'CYBERQUEST FORMACI\u00d3N EN SEGURIDAD',
-    certTitle:'Certificado de Finalizaci\u00f3n',
-    certSubtitle:'Programa de Formaci\u00f3n en Concienciaci\u00f3n sobre Seguridad',
+    totalScore:'Puntuación total',
+    viewCert:'Ver certificado →',
+    trainingComplete:'¡Formación completada!',
+    congratsMsg:'¡Felicidades, {name}! Has completado todos los escenarios de concienciación sobre seguridad.',
+    certOrg:'CYBERQUEST FORMACIÓN EN SEGURIDAD',
+    certTitle:'Certificado de Finalización',
+    certSubtitle:'Programa de Formación en Concienciación sobre Seguridad',
     thisCertifies:'Se certifica que',
-    certDesc:'ha completado con \u00e9xito los cuatro escenarios interactivos de formaci\u00f3n en concienciaci\u00f3n sobre seguridad',
-    certScoreLabel:'Puntuaci\u00f3n global',
+    certDesc:'ha completado con éxito los cuatro escenarios interactivos de formación en concienciación sobre seguridad',
+    certScoreLabel:'Puntuación global',
     certAwardedOn:'Otorgado el',
+    certIdLabel:'ID del certificado',
+    certCompletedTasks:'Escenarios completados',
+    certPointsLabel:'Puntos',
     downloadCert:'&#128196; Descargar certificado PDF',
     completedBadge:'COMPLETADO',
     viewCertBtn:'&#127891; Ver tu certificado',
-    outlookInbox:'Outlook \u2014 Bandeja de entrada',
-    deviceCodeLabel:'Introduce este c\u00f3digo para autenticarte',
+    outlookInbox:'Outlook — Bandeja de entrada',
+    deviceCodeLabel:'Introduce este código para autenticarte',
     emailFrom:'De:',
     emailTo:'Para:',
     emailSubject:'Asunto:',
     diffMedium:'Medio',
-    diffHard:'Dif\u00edcil',
+    diffHard:'Difícil',
     dateLocale:'es-ES'
   },
   it: {
@@ -174,21 +186,21 @@ const LANG = {
     welcomeDesc:'Stai per affrontare scenari di sicurezza reali. Prendi le decisioni giuste, impara dagli errori e ottieni il tuo certificato.',
     nameLabel:'Inserisci il tuo nome completo',
     namePlaceholder:'es. Mario Rossi',
-    startBtn:'Inizia la formazione \u2192',
+    startBtn:'Inizia la formazione →',
     menuIntro:'<strong>Scegli uno scenario</strong> per iniziare la tua formazione. Ognuno ti mette in una situazione reale in cui devi prendere la decisione giusta.',
     scoreLabel:'Punteggio',
     scenariosLabel:'Scenari',
     streakLabel:'Serie',
-    correct:'\u2714 Corretto!',
-    wrong:'\u2718 Non \u00e8 la scelta migliore',
-    continueBtn:'Continua \u2192',
-    backBtn:'\u2190 Torna agli scenari',
+    correct:'✔ Corretto!',
+    wrong:'✘ Non è la scelta migliore',
+    continueBtn:'Continua →',
+    backBtn:'← Torna agli scenari',
     keyTakeaways:'&#128218; Punti chiave',
     scenarioComplete:'Scenario completato!',
     scenarioScore:'Punteggio scenario',
     scenariosDone:'Scenari completati',
     totalScore:'Punteggio totale',
-    viewCert:'Visualizza certificato \u2192',
+    viewCert:'Visualizza certificato →',
     trainingComplete:'Formazione completata!',
     congratsMsg:'Congratulazioni, {name}! Hai completato tutti gli scenari di formazione sulla sicurezza.',
     certOrg:'CYBERQUEST FORMAZIONE SULLA SICUREZZA',
@@ -198,10 +210,13 @@ const LANG = {
     certDesc:'ha completato con successo tutti e quattro gli scenari interattivi di formazione sulla consapevolezza della sicurezza',
     certScoreLabel:'Punteggio complessivo',
     certAwardedOn:'Rilasciato il',
+    certIdLabel:'ID certificato',
+    certCompletedTasks:'Scenari completati',
+    certPointsLabel:'Punti',
     downloadCert:'&#128196; Scarica il certificato PDF',
     completedBadge:'COMPLETATO',
     viewCertBtn:'&#127891; Visualizza il tuo certificato',
-    outlookInbox:'Outlook \u2014 Posta in arrivo',
+    outlookInbox:'Outlook — Posta in arrivo',
     deviceCodeLabel:'Inserisci questo codice per autenticarti',
     emailFrom:'Da:',
     emailTo:'A:',
@@ -211,87 +226,93 @@ const LANG = {
     dateLocale:'it-IT'
   },
   cs: {
-    tagline:'Interaktivn\u00ed \u0161kolen\u00ed o bezpe\u010dnostn\u00edm pov\u011bdom\u00ed',
-    welcomeTitle:'V\u00edtejte v CyberQuestu',
-    welcomeDesc:'\u010cek\u00e1 v\u00e1s s\u00e9rie re\u00e1ln\u00fdch bezpe\u010dnostn\u00edch sc\u00e9n\u00e1\u0159\u016f. Rozhodujte spr\u00e1vn\u011b, u\u010dte se z chyb a z\u00edskejte osv\u011bd\u010den\u00ed o bezpe\u010dnostn\u00edm pov\u011bdom\u00ed.',
-    nameLabel:'Zadejte sv\u00e9 cel\u00e9 jm\u00e9no',
-    namePlaceholder:'nap\u0159. Jan Nov\u00e1k',
-    startBtn:'Zah\u00e1jit \u0161kolen\u00ed \u2192',
-    menuIntro:'<strong>Vyberte sc\u00e9n\u00e1\u0159</strong> a za\u010dn\u011bte sv\u00e9 \u0161kolen\u00ed. Ka\u017ed\u00fd v\u00e1s postav\u00ed do re\u00e1ln\u00e9 situace, kde mus\u00edte u\u010dinit spr\u00e1vn\u00e9 rozhodnut\u00ed.',
-    scoreLabel:'Sk\u00f3re',
-    scenariosLabel:'Sc\u00e9n\u00e1\u0159e',
-    streakLabel:'S\u00e9rie',
-    correct:'\u2714 Spr\u00e1vn\u011b!',
-    wrong:'\u2718 Nen\u00ed to nejlep\u0161\u00ed volba',
-    continueBtn:'Pokra\u010dovat \u2192',
-    backBtn:'\u2190 Zp\u011bt na sc\u00e9n\u00e1\u0159e',
-    keyTakeaways:'&#128218; Kl\u00ed\u010dov\u00e1 pou\u010den\u00ed',
-    scenarioComplete:'Sc\u00e9n\u00e1\u0159 dokon\u010den!',
-    scenarioScore:'Sk\u00f3re sc\u00e9n\u00e1\u0159e',
-    scenariosDone:'Dokon\u010den\u00e9 sc\u00e9n\u00e1\u0159e',
-    totalScore:'Celkov\u00e9 sk\u00f3re',
-    viewCert:'Zobrazit osv\u011bd\u010den\u00ed \u2192',
-    trainingComplete:'\u0160kolen\u00ed dokon\u010deno!',
-    congratsMsg:'Gratulujeme, {name}! Dokon\u010dili jste v\u0161echny sc\u00e9n\u00e1\u0159e bezpe\u010dnostn\u00edho pov\u011bdom\u00ed.',
-    certOrg:'CYBERQUEST BEZPE\u010cNOSTN\u00cd \u0160KOLEN\u00cd',
-    certTitle:'Osv\u011bd\u010den\u00ed o absolvov\u00e1n\u00ed',
-    certSubtitle:'Program \u0161kolen\u00ed o bezpe\u010dnostn\u00edm pov\u011bdom\u00ed',
-    thisCertifies:'Toto osv\u011bd\u010duje, \u017ee',
-    certDesc:'\u00fasp\u011b\u0161n\u011b dokon\u010dil/a v\u0161echny \u010dty\u0159i interaktivn\u00ed sc\u00e9n\u00e1\u0159e \u0161kolen\u00ed o bezpe\u010dnostn\u00edm pov\u011bdom\u00ed',
-    certScoreLabel:'Celkov\u00e9 sk\u00f3re',
-    certAwardedOn:'Ud\u011bleno dne',
-    downloadCert:'St\u00e1hnout PDF osv\u011bd\u010den\u00ed',
-    completedBadge:'DOKON\u010cENO',
-    viewCertBtn:'Zobrazit va\u0161e osv\u011bd\u010den\u00ed',
-    outlookInbox:'Outlook \u2014 Doru\u010den\u00e1 po\u0161ta',
-    deviceCodeLabel:'Zadejte tento k\u00f3d pro ov\u011b\u0159en\u00ed',
+    tagline:'Interaktivní školení o bezpečnostním povědomí',
+    welcomeTitle:'Vítejte v CyberQuestu',
+    welcomeDesc:'Čeká vás série reálných bezpečnostních scénářů. Rozhodujte správně, učte se z chyb a získejte osvědčení o bezpečnostním povědomí.',
+    nameLabel:'Zadejte své celé jméno',
+    namePlaceholder:'např. Jan Novák',
+    startBtn:'Zahájit školení →',
+    menuIntro:'<strong>Vyberte scénář</strong> a začněte své školení. Každý vás postaví do reálné situace, kde musíte učinit správné rozhodnutí.',
+    scoreLabel:'Skóre',
+    scenariosLabel:'Scénáře',
+    streakLabel:'Série',
+    correct:'✔ Správně!',
+    wrong:'✘ Není to nejlepší volba',
+    continueBtn:'Pokračovat →',
+    backBtn:'← Zpět na scénáře',
+    keyTakeaways:'&#128218; Klíčová poučení',
+    scenarioComplete:'Scénář dokončen!',
+    scenarioScore:'Skóre scénáře',
+    scenariosDone:'Dokončené scénáře',
+    totalScore:'Celkové skóre',
+    viewCert:'Zobrazit osvědčení →',
+    trainingComplete:'Školení dokončeno!',
+    congratsMsg:'Gratulujeme, {name}! Dokončili jste všechny scénáře bezpečnostního povědomí.',
+    certOrg:'CYBERQUEST BEZPEČNOSTNÍ ŠKOLENÍ',
+    certTitle:'Osvědčení o absolvování',
+    certSubtitle:'Program školení o bezpečnostním povědomí',
+    thisCertifies:'Toto osvědčuje, že',
+    certDesc:'úspěšně dokončil/a všechny čtyři interaktivní scénáře školení o bezpečnostním povědomí',
+    certScoreLabel:'Celkové skóre',
+    certAwardedOn:'Uděleno dne',
+    certIdLabel:'ID osvědčení',
+    certCompletedTasks:'Splněné scénáře',
+    certPointsLabel:'Body',
+    downloadCert:'Stáhnout PDF osvědčení',
+    completedBadge:'DOKONČENO',
+    viewCertBtn:'Zobrazit vaše osvědčení',
+    outlookInbox:'Outlook — Doručená pošta',
+    deviceCodeLabel:'Zadejte tento kód pro ověření',
     emailFrom:'Od:',
     emailTo:'Komu:',
-    emailSubject:'P\u0159edm\u011bt:',
-    diffMedium:'St\u0159edn\u00ed',
-    diffHard:'T\u011b\u017ek\u00e1',
+    emailSubject:'Předmět:',
+    diffMedium:'Střední',
+    diffHard:'Těžká',
     dateLocale:'cs-CZ'
   },
   sk: {
-    tagline:'Interakt\u00edvne \u0161kolenie o bezpe\u010dnostn\u00f3m povedom\u00ed',
+    tagline:'Interaktívne školenie o bezpečnostnóm povedomí',
     welcomeTitle:'Vitajte v CyberQueste',
-    welcomeDesc:'\u010cak\u00e1 v\u00e1s s\u00e9ria re\u00e1lnych bezpe\u010dnostn\u00fdch scen\u00e1rov. Rozhodujte spr\u00e1vne, u\u010dte sa z ch\u00fdb a z\u00edskajte osved\u010denie o bezpe\u010dnostn\u00f3m povedom\u00ed.',
-    nameLabel:'Zadajte svoje cel\u00e9 meno',
-    namePlaceholder:'napr. J\u00e1n Nov\u00e1k',
-    startBtn:'Za\u010da\u0165 \u0161kolenie \u2192',
-    menuIntro:'<strong>Vyberte scen\u00e1r</strong> a za\u010dnite svoje \u0161kolenie. Ka\u017ed\u00fd v\u00e1s postav\u00ed do re\u00e1lnej situ\u00e1cie, kde mus\u00edte urobi\u0165 spr\u00e1vne rozhodnutie.',
-    scoreLabel:'Sk\u00f3re',
-    scenariosLabel:'Scen\u00e1re',
-    streakLabel:'S\u00e9ria',
-    correct:'\u2714 Spr\u00e1vne!',
-    wrong:'\u2718 Nie je to najlep\u0161ia vo\u013eba',
-    continueBtn:'Pokra\u010dova\u0165 \u2192',
-    backBtn:'\u2190 Sp\u00e4\u0165 na scen\u00e1re',
-    keyTakeaways:'&#128218; K\u013e\u00fa\u010dov\u00e9 pona\u010denia',
-    scenarioComplete:'Scen\u00e1r dokon\u010den\u00fd!',
-    scenarioScore:'Sk\u00f3re scen\u00e1ra',
-    scenariosDone:'Dokon\u010den\u00e9 scen\u00e1re',
-    totalScore:'Celkov\u00e9 sk\u00f3re',
-    viewCert:'Zobrazi\u0165 osved\u010denie \u2192',
-    trainingComplete:'\u0160kolenie dokon\u010den\u00e9!',
-    congratsMsg:'Gratulujeme, {name}! Dokon\u010dili ste v\u0161etky scen\u00e1re bezpe\u010dnostn\u00e9ho povedomia.',
-    certOrg:'CYBERQUEST BEZPE\u010cNOSTN\u00c9 \u0160KOLENIE',
-    certTitle:'Osved\u010denie o absolvovan\u00ed',
-    certSubtitle:'Program \u0161kolenia o bezpe\u010dnostn\u00f3m povedom\u00ed',
-    thisCertifies:'Toto osved\u010duje, \u017ee',
-    certDesc:'\u00faspe\u0161ne dokon\u010dil/a v\u0161etky \u0161tyri interakt\u00edvne scen\u00e1re \u0161kolenia o bezpe\u010dnostn\u00f3m povedom\u00ed',
-    certScoreLabel:'Celkov\u00e9 sk\u00f3re',
-    certAwardedOn:'Udelen\u00e9 d\u0148a',
-    downloadCert:'&#128196; Stiahnu\u0165 PDF osved\u010denie',
-    completedBadge:'DOKON\u010cEN\u00c9',
-    viewCertBtn:'&#127891; Zobrazi\u0165 va\u0161e osved\u010denie',
-    outlookInbox:'Outlook \u2014 Doru\u010den\u00e1 po\u0161ta',
-    deviceCodeLabel:'Zadajte tento k\u00f3d na overenie',
+    welcomeDesc:'Čaká vás séria reálnych bezpečnostných scenárov. Rozhodujte správne, učte sa z chýb a získajte osvedčenie o bezpečnostnóm povedomí.',
+    nameLabel:'Zadajte svoje celé meno',
+    namePlaceholder:'napr. Ján Novák',
+    startBtn:'Začať školenie →',
+    menuIntro:'<strong>Vyberte scenár</strong> a začnite svoje školenie. Každý vás postaví do reálnej situácie, kde musíte urobiť správne rozhodnutie.',
+    scoreLabel:'Skóre',
+    scenariosLabel:'Scenáre',
+    streakLabel:'Séria',
+    correct:'✔ Správne!',
+    wrong:'✘ Nie je to najlepšia voľba',
+    continueBtn:'Pokračovať →',
+    backBtn:'← Späť na scenáre',
+    keyTakeaways:'&#128218; Kľúčové ponaučenia',
+    scenarioComplete:'Scenár dokončený!',
+    scenarioScore:'Skóre scenára',
+    scenariosDone:'Dokončené scenáre',
+    totalScore:'Celkové skóre',
+    viewCert:'Zobraziť osvedčenie →',
+    trainingComplete:'Školenie dokončené!',
+    congratsMsg:'Gratulujeme, {name}! Dokončili ste všetky scenáre bezpečnostného povedomia.',
+    certOrg:'CYBERQUEST BEZPEČNOSTNÉ ŠKOLENIE',
+    certTitle:'Osvedčenie o absolvovaní',
+    certSubtitle:'Program školenia o bezpečnostnóm povedomí',
+    thisCertifies:'Toto osvedčuje, že',
+    certDesc:'úspešne dokončil/a všetky štyri interaktívne scenáre školenia o bezpečnostnóm povedomí',
+    certScoreLabel:'Celkové skóre',
+    certAwardedOn:'Udelené dňa',
+    certIdLabel:'ID osvedčenia',
+    certCompletedTasks:'Splnené scenáre',
+    certPointsLabel:'Body',
+    downloadCert:'&#128196; Stiahnuť PDF osvedčenie',
+    completedBadge:'DOKONČENÉ',
+    viewCertBtn:'&#127891; Zobraziť vaše osvedčenie',
+    outlookInbox:'Outlook — Doručená pošta',
+    deviceCodeLabel:'Zadajte tento kód na overenie',
     emailFrom:'Od:',
     emailTo:'Komu:',
     emailSubject:'Predmet:',
-    diffMedium:'Stredn\u00e1',
-    diffHard:'T\u0165a\u017ek\u00e1',
+    diffMedium:'Stredná',
+    diffHard:'Ťažká',
     dateLocale:'sk-SK'
   }
 };
@@ -446,7 +467,7 @@ const SCENARIO_TRANSLATIONS = {
           narrative:"<strong>13h45 — Un message Teams de Jordan.</strong> Vous connaissez Jordan du Marketing — il est bien aimé et cela semble être une vraie pression. Mais il vous demande de contourner le processus d'approbation d'accès. Que faites-vous ?",
           chatData:{messages:[
             {text:"Salut ! Petit service rapide — j'ai besoin d'accès au tableau de bord d'analyse client d'urgence. Ma demande est bloquée dans la file d'approbation et j'ai une présentation au comité à 16h."},
-            {text:"Pouvez-vous juste partager votre connexion ou m'ajouter comme visualiseur ? C'est en lecture seule de toute façon. Je soumettrai la demande appropriée ensuite, promis ! 🙏"}
+            {text:"Pouvez-vous juste partager votre connexion ou m'ajouter comme visualiseur ? C'est en lecture seule de toute façon. Je soumettrai la demande appropriée ensuite, promis ! 😩"}
           ]},
           choices:[
             {text:"Partager vos identifiants juste cette fois — Jordan est digne de confiance et c'est en lecture seule.",feedback:"Ne partagez jamais vos identifiants, même avec des collègues de confiance. Les identifiants partagés rendent impossible l'audit de qui a accédé à quoi, violent la conformité, et si quelque chose tourne mal, vous êtes responsable."},
@@ -1022,178 +1043,178 @@ Object.assign(SCENARIO_TRANSLATIONS, {
 Object.assign(SCENARIO_TRANSLATIONS, {
   cs: {
     phishing: {
-      title:"Podez\u0159el\u00fd e-mail",
-      desc:"Do va\u0161\u00ed schr\u00e1nky Outlook doraz\u00ed zdanliv\u011b naléhavý e-mail. N\u011bco vypad\u00e1 podez\u0159ele...",
-      difficulty:"St\u0159edn\u00ed", badge:"PHISHING",
+      title:"Podezřelý e-mail",
+      desc:"Do vaší schránky Outlook dorazí zdanlivě naléhavý e-mail. Něco vypadá podezřele...",
+      difficulty:"Střední", badge:"PHISHING",
       lessons:[
-        "V\u017edy pe\u010dliv\u011b ov\u011b\u0159ujte e-mailovou adresu odes\u00edlatele \u2014 \u00fato\u010dn\u00edci pou\u017e\u00edvaj\u00ed podobn\u011b vypadaj\u00edc\u00ed dom\u00e9ny.",
-        "P\u0159ed kliknut\u00edm najeďte my\u0161\u00ed na odkaz a zkontrolujte skute\u010dnou c\u00edlovou adresu URL.",
-        "Legitimn\u00ed spole\u010dnosti v\u00e1s nikdy nebudou urgentně \u017e\u00e1dat o ov\u011b\u0159en\u00ed p\u0159ihla\u0161ovac\u00edch \u00fadaj\u016f e-mailem.",
-        "V p\u0159\u00edpad\u011b pochybnost\u00ed kontaktujte IT bezpe\u010dnost prost\u0159ednictv\u00edm zn\u00e1m\u00e9ho a d\u016fv\u011bryhodn\u00e9ho kan\u00e1lu.",
-        "Podez\u0159el\u00e9 e-maily neprodlen\u011b nahlaste prost\u0159ednictv\u00edm mechanismu hl\u00e1\u0161en\u00ed va\u0161\u00ed organizace."
+        "Vždy pečlivě ověřujte e-mailovou adresu odesílatele — útočníci používají podobně vypadající domény.",
+        "Před kliknutím najeďte myší na odkaz a zkontrolujte skutečnou cílovou adresu URL.",
+        "Legitimní společnosti vás nikdy nebudou urgentně žádat o ověření přihlašovacích údajů e-mailem.",
+        "V případě pochybností kontaktujte IT bezpečnost prostřednictvím známého a důvěryhodného kanálu.",
+        "Podezřelé e-maily neprodleně nahlaste prostřednictvím mechanismu hlášení vaší organizace."
       ],
       steps:[
         {
-          narrative:"<strong>9:02 \u2014 Pond\u011bln\u00ed r\u00e1no.</strong> Pr\u00e1v\u011b proch\u00e1z\u00edte e-maily, kdy\u017e v\u00e1m p\u0159istane tato zpr\u00e1va. Je ozna\u010dena jako d\u016fle\u017eit\u00e1. Co ud\u011bl\u00e1te nejd\u0159\u00edv?",
+          narrative:"<strong>9:02 — Pondělní ráno.</strong> Právě procházíte e-maily, když vám přistane tato zpráva. Je označena jako důležitá. Co uděláte nejdřív?",
           emailData:{
-            subject:"&#9888;&#65039; URGENTN\u00cd: V\u00e1\u0161 \u00fa\u010det bude deaktivov\u00e1n za 24 hodin",
-            body:`<p>V\u00e1\u017een\u00fd u\u017eivateli,</p><p>Na va\u0161em \u00fa\u010dtu Microsoft 365 jsme zjistili <span class="highlight">neobvyklou p\u0159ihla\u0161ovac\u00ed aktivitu</span>. V\u00e1\u0161 \u00fa\u010det bude <span class="highlight">pozastaven do 24 hodin</span>, pokud neov\u011b\u0159\u00edte svou toto\u017enost.</p><p>Pro okam\u017eit\u00e9 ov\u011b\u0159en\u00ed klikn\u011bte na tla\u010d\u00edtko n\u00ed\u017ee:</p><div class="email-btn-fake">&#128274; Ov\u011b\u0159it M\u016fj \u00da\u010det Nyn\u00ed</div><p style="margin-top:1rem;font-size:0.8rem;color:#64748b;">Pokud jste to neza\u010d\u00e1li, ov\u011b\u0159te se pros\u00edm p\u0159esto pro zaji\u0161t\u011bn\u00ed bezpe\u010dnosti \u00fa\u010dtu.<br>Bezpe\u010dnostn\u00ed t\u00fdm Microsoft 365</p>`
+            subject:"&#9888;&#65039; URGENTNÍ: Váš účet bude deaktivován za 24 hodin",
+            body:`<p>Vážený uživateli,</p><p>Na vašem účtu Microsoft 365 jsme zjistili <span class="highlight">neobvyklou přihlašovací aktivitu</span>. Váš účet bude <span class="highlight">pozastaven do 24 hodin</span>, pokud neověříte svou totožnost.</p><p>Pro okamžité ověření klikněte na tlačítko níže:</p><div class="email-btn-fake">&#128274; Ověřit Můj Účet Nyní</div><p style="margin-top:1rem;font-size:0.8rem;color:#64748b;">Pokud jste o to nežádali, ověřte se prosím přesto kvůli zajištění bezpečnosti účtu.<br>Bezpečnostní tým Microsoft 365</p>`
           },
           choices:[
-            {text:'Kliknout na "Ov\u011b\u0159it M\u016fj \u00da\u010det Nyn\u00ed" okam\u017eit\u011b \u2014 nemohu si dovolit ztratit p\u0159\u00edstup!',feedback:"Klik\u00e1n\u00ed na odkazy v podez\u0159el\u00fdch e-mailech je extr\u00e9mn\u011b nebezpe\u010dn\u00e9. Mohlo by v\u00e1s to zav\u00e9st na str\u00e1nku sbíraj\u00edc\u00ed va\u0161e p\u0159ihla\u0161ovac\u00ed \u00fadaje. Naléhavost je klasick\u00e1 manipula\u010dn\u00ed taktika."},
-            {text:"Pe\u010dliv\u011b zkontrolovat e-mailovou adresu odes\u00edlatele, ne\u017e cokoliv ud\u011bl\u00e1m.",feedback:"V\u00fdborn\u00fd instinkt! \u201emicros0ft-365.com\u201c odhaluje z\u00e1ke\u0159nou dom\u00e9nu \u2014 v\u0161imn\u011bte si nuly m\u00edsto \u201eo\u201c ve slov\u011b microsoft. To je klasick\u00fd phishingow\u00fd indik\u00e1tor."},
-            {text:"P\u0159eposlat e-mail cel\u00e9mu t\u00fdmu, abych je varoval p\u0159ed probl\u00e9mem s \u00fa\u010dtem.",feedback:"P\u0159epos\u00edl\u00e1n\u00ed phishingow\u00fdch e-mail\u016f \u0161\u00ed\u0159\u00ed hrozbu! Kolega by mohl na odkaz kliknout. Nikdy nep\u0159epos\u00eelajte podez\u0159el\u00e9 e-maily \u2014 nahlaste je p\u0159\u00edslu\u0161n\u00fdmi kan\u00e1ly."},
-            {text:"Odpov\u011bd\u011bt na e-mail a zeptat se, zda je legitimn\u00ed.",feedback:"Odpov\u00edd\u00e1n\u00ed potvrzuje, \u017ee je va\u0161e e-mailov\u00e1 adresa aktivn\u00ed \u2014 cenn\u00e1 informace pro \u00fato\u010dn\u00edky. Nikdy neodpov\u00eddejte na podez\u0159el\u00e9 e-maily; hlaste je IT bezpe\u010dnostn\u00edmu odd\u011blen\u00ed."}
+            {text:'Kliknout na "Ověřit Můj Účet Nyní" okamžitě — nemohu si dovolit ztratit přístup!',feedback:"Klikání na odkazy v podezřelých e-mailech je extrémně nebezpečné. Mohlo by vás to zavést na stránku sbírající vaše přihlašovací údaje. Naléhavost je klasická manipulační taktika."},
+            {text:"Pečlivě zkontrolovat e-mailovou adresu odesílatele, než cokoliv udělám.",feedback:"Výborný instinkt! „micros0ft-365.com“ odhaluje zákeřnou doménu — všimněte si nuly místo „o“ ve slově microsoft. To je klasický phishingový indikátor."},
+            {text:"Přeposlat e-mail celému týmu, abych je varoval před problémem s účtem.",feedback:"Přeposílání phishingových e-mailů šíří hrozbu! Kolega by mohl na odkaz kliknout. Nikdy nepřeposílejte podezřelé e-maily — nahlaste je příslušnými kanály."},
+            {text:"Odpovědět na e-mail a zeptat se, zda je legitimní.",feedback:"Odpovídání potvrzuje, že je vaše e-mailová adresa aktivní — cenná informace pro útočníky. Nikdy neodpovídejte na podezřelé e-maily; hlaste je IT bezpečnostnímu oddělení."}
           ]
         },
         {
-          narrative:"Prozkoumali jste adresu odes\u00edlatele: <strong>IT-Security@micros0ft-365.com</strong>. V\u0161imli jste si \u201e0\u201c m\u00edsto \u201eo\u201c. Po najet\u00ed my\u0161\u00ed na odkaz vid\u00edte, \u017ee sm\u011b\u0159uje na: <strong class=\"red-flag\">http://login-365verify.sketchy-domain.ru/auth</strong>. Jak\u00fd bude v\u00e1\u0161 dal\u0161\u00ed krok?",
+          narrative:"Prozkoumali jste adresu odesílatele: <strong>IT-Security@micros0ft-365.com</strong>. Všimli jste si „0“ místo „o“. Po najetí myší na odkaz vidíte, že směřuje na: <strong class=\"red-flag\">http://login-365verify.sketchy-domain.ru/auth</strong>. Jaký bude váš další krok?",
           choices:[
-            {text:'Nahlásit e-mail tla\u010d\u00edtkem "Nahlásit phishing" a upozornit IT bezpe\u010dnostn\u00ed t\u00fdm.',feedback:"To je spr\u00e1vn\u00e9. Nahlá\u0161en\u00ed pomáhá va\u0161emu bezpe\u010dnostn\u00edmu t\u00fdmu blokovat hrozbu pro celou organizaci a chr\u00e1nit v\u0161echny."},
-            {text:"Jednoduše e-mail smazat a j\u00edt d\u00e1l.",feedback:"Smaz\u00e1n\u00edm se chr\u00e1n\u00edte vy, ale ne va\u0161i kolegov\u00e9. Jin\u00ed mohli obdr\u017eet stejn\u00fd e-mail. Nahlá\u0161en\u00ed zaji\u0161t\u00ed, \u017ee bezpe\u010dnostn\u00ed t\u00fdm m\u016f\u017ee vy\u0161et\u0159ovat a varovat ostatn\u00ed."},
-            {text:"Otev\u0159\u00edt odkaz v anonymn\u00edm okn\u011b pro bezpe\u010dn\u00e9 prozkoum\u00e1n\u00ed.",feedback:"Anonymn\u00ed re\u017eim v\u00e1s NECHR\u00c1N\u00cd p\u0159ed \u0161kodliv\u00fdmi weby. Str\u00e1nka st\u00e1le m\u016f\u017ee kr\u00e1st p\u0159ihla\u0161ovac\u00ed \u00fadaje nebo zneu\u017e\u00edvat zranitelnosti prohl\u00ed\u017ee\u010de. Nechte vy\u0161et\u0159ov\u00e1n\u00ed na bezpe\u010dnostn\u00edm t\u00fdmu."}
+            {text:'Nahlásit e-mail tlačítkem "Nahlásit phishing" a upozornit IT bezpečnostní tým.',feedback:"To je správné. Nahlášení pomáhá vašemu bezpečnostnímu týmu blokovat hrozbu pro celou organizaci a chránit všechny."},
+            {text:"Jednoduše e-mail smazat a jít dál.",feedback:"Smazáním se chráníte vy, ale ne vaši kolegové. Jiní mohli obdržet stejný e-mail. Nahlášení zajistí, že bezpečnostní tým může vyšetřovat a varovat ostatní."},
+            {text:"Otevřít odkaz v anonymním okně pro bezpečné prozkoumání.",feedback:"Anonymní režim vás NECHRÁNÍ před škodlivými weby. Stránka stále může krást přihlašovací údaje nebo zneužívat zranitelnosti prohlížeče. Nechte vyšetřování na bezpečnostním týmu."}
           ]
         },
         {
-          narrative:"IT bezpe\u010dnostn\u00ed t\u00fdm potvrdil, \u017ee \u0161lo o phishingov\u00fd \u00fatoky. D\u00edky va\u0161emu rychl\u00e9mu nahlá\u0161en\u00ed mohl t\u00fdm <strong>zablokovat \u0161kodlivou dom\u00e9nu</strong> a <strong>odeslat celofiremn\u00ed upozorn\u011bn\u00ed</strong>. Z\u00e1v\u011bre\u010dn\u00e1 ot\u00e1zka \u2014 jak byste v budoucnu ov\u011b\u0159ili legitimn\u00ed probl\u00e9m s \u00fa\u010dtem?",
+          narrative:"IT bezpečnostní tým potvrdil, že šlo o phishingový útok. Díky vašemu rychlému nahlášení mohl tým <strong>zablokovat škodlivou doménu</strong> a <strong>odeslat celofiremní upozornění</strong>. Závěrečná otázka — jak byste v budoucnu ověřili legitimní problém s účtem?",
           choices:[
-            {text:"P\u0159ej\u00edt p\u0159\u00edmo na portal.office.com zad\u00e1n\u00edm do prohl\u00ed\u017ee\u010de nebo kontaktovat IT na zn\u00e1m\u00e9m telefonn\u00edm \u010d\u00edsle.",feedback:"V\u017edy p\u0159istupujte p\u0159\u00edmo na zn\u00e1m\u00e9 a d\u016fv\u011bryhodn\u00e9 adresy URL nebo kontaktujte IT zavedem\u00fdmi kan\u00e1ly. Nikdy nepou\u017e\u00edvejte v e-mailech obsazhen\u00e9 odkazy pro p\u0159\u00edstup k citliv\u00fdm \u00fa\u010dt\u016fm."},
-            {text:'Hledat "p\u0159ihl\u00e1\u0161en\u00ed Microsoft 365" na Googlu a kliknout na prvn\u00ed v\u00fdsledek.',feedback:"\u00dato\u010dn\u00edci si mohou koupit reklamy, kter\u00e9 se zobraz\u00ed nad legitimn\u00edmi v\u00fdsledky. V\u017edy zad\u00e1vejte zn\u00e1m\u00e9 adresy URL p\u0159\u00edmo."},
-            {text:"Kliknout na odkaz v e-mailu, ale pou\u017e\u00edt fale\u0161n\u00e9 heslo pro otestov\u00e1n\u00ed.",feedback:"I zad\u00e1v\u00e1n\u00ed fale\u0161n\u00fdch \u00fadaj\u016f na phishingov\u00e9 str\u00e1nce je riskantn\u00ed \u2014 str\u00e1nka m\u016f\u017ee nasadit malware nebo interakci vyu\u017e\u00edt k dal\u0161\u00edmu postupu \u00fatoku."}
+            {text:"Přejít přímo na portal.office.com zadáním do prohlížeče nebo kontaktovat IT na známém telefonním čísle.",feedback:"Vždy přistupujte přímo na známé a důvěryhodné adresy URL nebo kontaktujte IT zavedenými kanály. Nikdy nepoužívejte odkazy obsažené v e-mailech pro přístup k citlivým účtům."},
+            {text:'Hledat "přihlášení Microsoft 365" na Googlu a kliknout na první výsledek.',feedback:"Útočníci si mohou koupit reklamy, které se zobrazí nad legitimními výsledky. Vždy zadávejte známé adresy URL přímo."},
+            {text:"Kliknout na odkaz v e-mailu, ale použít falešné heslo pro otestování.",feedback:"I zadávání falešných údajů na phishingové stránce je riskantní — stránka může nasadit malware nebo interakci využít k dalšímu postupu útoku."}
           ]
         }
       ]
     },
     'device-code': {
-      title:"Past s k\u00f3dem za\u0159\u00edzen\u00ed",
-      desc:"Neo\u010dek\u00e1van\u00fd po\u017eadavek na ov\u011b\u0159en\u00ed v\u00e1s \u017e\u00e1d\u00e1, abyste zadali k\u00f3d na p\u0159ihla\u0161ovac\u00ed str\u00e1nce Microsoftu.",
-      difficulty:"T\u011b\u017ek\u00e1", badge:"PHISHING K\u00d3DEM ZA\u0158\u00cdZEN\u00cd",
+      title:"Past s kódem zařízení",
+      desc:"Neočekávaný požadavek na ověření vás žádá, abyste zadali kód na přihlašovací stránce Microsoftu.",
+      difficulty:"Těžká", badge:"PHISHING KÓDEM ZAŘÍZENÍ",
       lessons:[
-        "Po\u017eadavky na ov\u011b\u0159en\u00ed k\u00f3dem za\u0159\u00edzen\u00ed, kter\u00e9 jste sami neiniciovali, jsou t\u00e9m\u011b\u0159 v\u017edy \u00fatok.",
-        "Zad\u00e1n\u00edm k\u00f3du za\u0159\u00edzen\u00ed ud\u011bl\u00edte \u00fato\u010dn\u00edkovi token pro p\u0159\u00edstup k va\u0161emu \u00fa\u010dtu \u2014 i p\u0159i zapnut\u00e9m MFA.",
-        "\u00dato\u010dn\u00edci se \u010dasto vyd\u00e1vaj\u00ed za IT podporu prost\u0159ednictv\u00edm Teams, e-mailu nebo telefonu.",
-        "Neo\u010dek\u00e1van\u00e9 po\u017eadavky na ov\u011b\u0159en\u00ed v\u017edy ov\u011b\u0159ujte kontaktov\u00e1n\u00edm IT prost\u0159ednictv\u00edm zn\u00e1m\u00e9ho kan\u00e1lu.",
-        "Legitimn\u00ed IT podpora v\u00e1s nikdy nebude \u017e\u00e1dat o zad\u00e1n\u00ed k\u00f3du, kter\u00fd jste sami nevygenerovali."
+        "Požadavky na ověření kódem zařízení, které jste sami neiniciovali, jsou téměř vždy útok.",
+        "Zadáním kódu zařízení udělíte útočníkovi token pro přístup k vašemu účtu — i při zapnutém MFA.",
+        "Útočníci se často vydávají za IT podporu prostřednictvím Teams, e-mailu nebo telefonu.",
+        "Neočekávané požadavky na ověření vždy ověřujte kontaktováním IT prostřednictvím známého kanálu.",
+        "Legitimní IT podpora vás nikdy nebude žádat o zadání kódu, který jste sami nevygenerovali."
       ],
       steps:[
         {
-          narrative:"<strong>14:15 \u2014 Obdr\u017eeli jste zpr\u00e1vu v Teams</strong> od n\u011bkoho, kdo se vyd\u00e1v\u00e1 za pracovn\u00edka IT helpdesku. \u0158\u00edk\u00e1, \u017ee je k dispozici kritick\u00e1 bezpe\u010dnostn\u00ed aktualizace. V\u0161imnete si, \u017ee tuto osobu jste je\u0161t\u011b nikdy nevid\u011bli. Co ud\u011bl\u00e1te?",
+          narrative:"<strong>14:15 — Obdrželi jste zprávu v Teams</strong> od někoho, kdo se vydává za pracovníka IT helpdesku. Říká, že je k dispozici kritická bezpečnostní aktualizace. Všimnete si, že tuto osobu jste ještě nikdy neviděli. Co uděláte?",
           chatData:{messages:[
-            {sender:"Tomáš Procházka — IT Helpdesk",avatar:"TP",text:"Dobr\u00fd den! Dnes odpoledne zav\u00e1d\u00edme kritickou bezpe\u010dnostn\u00ed aktualizaci pro v\u0161echny \u00fa\u010dty Office 365. Pot\u0159ebuji ov\u011b\u0159it va\u0161i toto\u017enost, abych ji mohl aplikovat."},
-            {sender:"Tomáš Procházka — IT Helpdesk",avatar:"TP",text:"Pros\u00edm, p\u0159ejd\u011bte na <strong>microsoft.com/devicelogin</strong> a zadejte tento k\u00f3d. Zabere v\u00e1m to jen 30 sekund:"}
+            {sender:"Tomáš Procházka — IT Helpdesk",avatar:"TP",text:"Dobrý den! Dnes odpoledne zavádíme kritickou bezpečnostní aktualizaci pro všechny účty Office 365. Potřebuji ověřit vaši totožnost, abych ji mohl aplikovat."},
+            {sender:"Tomáš Procházka — IT Helpdesk",avatar:"TP",text:"Prosím, přejděte na <strong>microsoft.com/devicelogin</strong> a zadejte tento kód. Zabere vám to jen 30 sekund:"}
           ]},
           choices:[
-            {text:"P\u0159ej\u00edt na microsoft.com/devicelogin a zadat k\u00f3d, abych z\u00edskal aktualizaci.",feedback:"Zad\u00e1n\u00edm tohoto k\u00f3du byste ov\u011b\u0159ili rela\u010di \u00fato\u010dn\u00edka s VA\u0160IMI p\u0159ihla\u0161ovac\u00edmi \u00fadaji! Phishing pomoc\u00ed k\u00f3du za\u0159\u00edzen\u00ed obch\u00e1z\u00ed MFA, proto\u017ee vy dokon\u010dujete ov\u011b\u0159en\u00ed m\u00edsto \u00fato\u010dn\u00edka."},
-            {text:'"Tomáše" po\u017e\u00e1dat o v\u00edce podrobnost\u00ed o aktualizaci, ne\u017e cokoliv zad\u00e1m.',feedback:"Komunikace s \u00fato\u010dn\u00edkem jim d\u00e1v\u00e1 v\u00edce p\u0159\u00edle\u017eitost\u00ed v\u00e1s manipulovat. Pravd\u011bpodobn\u011b budou m\u00edt p\u0159ipraveny p\u0159esv\u011bd\u010div\u00e9 odpov\u011bdi. M\u00edsto toho ov\u011b\u0159te p\u0159es nez\u00e1visl\u00fd, d\u016fv\u011bryhodn\u00fd kan\u00e1l."},
-            {text:"Nic nezadat. Ov\u011b\u0159it zavol\u00e1n\u00edm IT helpdesku na \u010d\u00edsle z firemn\u00edho intranetu.",feedback:"Toto je nejbezpe\u010dn\u011bj\u0161\u00ed p\u0159\u00edstup. Ov\u011b\u0159ov\u00e1n\u00ed p\u0159es d\u016fv\u011bryhodn\u00fd, nez\u00e1visl\u00fd kan\u00e1l v\u00e1s chr\u00e1n\u00ed p\u0159ed soci\u00e1ln\u00edm in\u017een\u00fdrstv\u00edm. Skute\u010dn\u00e9 IT odd\u011blen\u00ed v\u00e1s nikdy nebude \u017e\u00e1dat o zad\u00e1v\u00e1n\u00ed k\u00f3d\u016f, kter\u00e9 jste sami nevygenerovali."},
-            {text:"Zadat k\u00f3d, ale pou\u017e\u00edt jin\u00fd profil prohl\u00ed\u017ee\u010de pro bezpe\u010d\u00ed.",feedback:"Jin\u00fd profil prohl\u00ed\u017ee\u010de zde neposkytuje \u017e\u00e1dnou ochranu. Jakmile k\u00f3d zad\u00e1te a ov\u011b\u0159\u00edte se, \u00fato\u010dn\u00edk obdr\u017e\u00ed platn\u00fd token pro v\u00e1\u0161 \u00fa\u010det."}
+            {text:"Přejít na microsoft.com/devicelogin a zadat kód, abych získal aktualizaci.",feedback:"Zadáním tohoto kódu byste ověřili relaci útočníka s VAŠIMI přihlašovacími údaji! Phishing pomocí kódu zařízení obchází MFA, protože vy dokončujete ověření místo útočníka."},
+            {text:'"Tomáše" požádat o více podrobností o aktualizaci, než cokoliv zadám.',feedback:"Komunikace s útočníkem jim dává více příležitostí vás manipulovat. Pravděpodobně budou mít připraveny přesvědčivé odpovědi. Místo toho ověřte přes nezávislý, důvěryhodný kanál."},
+            {text:"Nic nezadat. Ověřit zavoláním IT helpdesku na čísle z firemního intranetu.",feedback:"Toto je nejbezpečnější přístup. Ověřování přes důvěryhodný, nezávislý kanál vás chrání před sociálním inženýrstvím. Skutečné IT oddělení vás nikdy nebude žádat o zadávání kódů, které jste sami nevygenerovali."},
+            {text:"Zadat kód, ale použít jiný profil prohlížeče pro bezpečí.",feedback:"Jiný profil prohlížeče zde neposkytuje žádnou ochranu. Jakmile kód zadáte a ověříte se, útočník obdrží platný token pro váš účet."}
           ]
         },
         {
-          narrative:"Zavolali jste IT helpdesk na ov\u011b\u0159en\u00e9m \u010d\u00edsle z intranetu. Potvrzuj\u00ed: <strong class=\"red-flag\">tuto zpr\u00e1vu neodeslali a dnes \u017e\u00e1dn\u00e1 bezpe\u010dnostn\u00ed aktualizace neprobíhá.</strong> Jak\u00e9 je va\u0161e rozhodnut\u00ed?",
+          narrative:"Zavolali jste IT helpdesk na ověřeném čísle z intranetu. Potvrzují: <strong class=\"red-flag\">tuto zprávu neodeslali a dnes žádná bezpečnostní aktualizace neprobíhá.</strong> Jaké je vaše rozhodnutí?",
           choices:[
-            {text:"Nahlásit incident a nechat IT vy\u0161et\u0159it kompromitovan\u00fd \u00fa\u010det.",feedback:"Nahlá\u0161en\u00ed umo\u017en\u00ed bezpe\u010dnostn\u00edmu t\u00fdmu deaktivovat kompromitovan\u00fd \u00fa\u010det, vy\u0161et\u0159it rozsah \u00fatoku a upozornit dal\u0161\u00ed potenci\u00e1ln\u00ed c\u00edle. \u010cas je kritick\u00fd."},
-            {text:'Zablokovat "Tomáše Procházky" na Teams a zapomenout na to.',feedback:"\u00dadateln\u00ed v\u00e1s chr\u00e1n\u00ed, ale \u00fato\u010dn\u00edk v tuto chv\u00edli pravd\u011bpodobn\u011b c\u00edl\u00ed na ostatn\u00ed. Bez nahlá\u0161en\u00ed nem\u016f\u017ee IT zastavit \u0161ir\u0161\u00ed \u00fatoky."},
-            {text:'"Tomášovi" napsat zpr\u00e1vu, aby v\u011bd\u011bl, \u017ee v\u00edte o podvodu.',feedback:"Upozorn\u011bn\u00ed \u00fato\u010dn\u00edka jim umo\u017en\u00ed zakr\u00fdt stopy nebo zm\u011bnit taktiku. Nahlaste to tiše a nechte bezpe\u010dnostn\u00ed t\u00fdm jednat."}
+            {text:"Nahlásit incident a nechat IT vyšetřit kompromitovaný účet.",feedback:"Nahlášení umožní bezpečnostnímu týmu deaktivovat kompromitovaný účet, vyšetřit rozsah útoku a upozornit další potenciální cíle. Čas je kritický."},
+            {text:'Zablokovat "Tomáše Procházku" na Teams a zapomenout na to.',feedback:"Blokování vás chrání, ale útočník v tuto chvíli pravděpodobně cílí na ostatní. Bez nahlášení nemůže IT zastavit širší útok."},
+            {text:'"Tomášovi" napsat zprávu, aby věděl, že víte o podvodu.',feedback:"Upozornění útočníka jim umožní zakrýt stopy nebo změnit taktiku. Nahlaste to tiše a nechte bezpečnostní tým jednat."}
           ]
         },
         {
-          narrative:"IT bezpe\u010dnostn\u00ed t\u00fdm zjistil, \u017ee \u00fa\u010det \u201eTomáše Procházky\u201c byl kompromitov\u00e1n p\u0159i d\u0159\u00edv\u011bj\u0161\u00edm phishinkov\u00e9m \u00fatoku. \u00dato\u010dn\u00edk pos\u00eelal \u017e\u00e1dosti o k\u00f3dy za\u0159\u00edzen\u00ed des\u00ebtk\u00e1m zam\u011bstnanc\u016f. <br><br><strong>Z\u00e1v\u011bre\u010dn\u00e1 ot\u00e1zka:</strong> Co d\u011bl\u00e1 phishing pomoc\u00ed k\u00f3du za\u0159\u00edzen\u00ed obzv\u00e1\u0161t\u011b nebezpe\u010dn\u00fdm?",
+          narrative:"IT bezpečnostní tým zjistil, že účet „Tomáše Procházky“ byl kompromitován při dřívějším phishingovém útoku. Útočník posílal žádosti o kódy zařízení desítkám zaměstnanců. <br><br><strong>Závěrečná otázka:</strong> Co dělá phishing pomocí kódu zařízení obzvlášť nebezpečným?",
           choices:[
-            {text:"Obch\u00e1z\u00ed v\u00edcefaktorov\u00e9 ov\u011b\u0159ov\u00e1n\u00ed, proto\u017ee ob\u011b\u0165 sama dokon\u010d\u00ed v\u00fdzvu MFA.",feedback:"P\u0159esn\u011b tak. P\u0159i phishingu pomoc\u00ed k\u00f3du za\u0159\u00edzen\u00ed VY dokon\u010d\u00edte cel\u00e9 ov\u011b\u0159en\u00ed \u2014 v\u010detn\u011b MFA \u2014 a \u00fato\u010dn\u00edk obdr\u017e\u00ed v\u00fdsledn\u00fd token. Proto je to tak nebezpe\u010dn\u00e9."},
-            {text:"Instaluje malware na v\u00e1\u0161 p\u0159\u00edstroj.",feedback:"Phishing pomoc\u00ed k\u00f3du za\u0159\u00edzen\u00ed typicky nezahrnuje malware. Jeho s\u00edla spo\u010d\u00edv\u00e1 v tom, \u017ee v\u00e1s p\u0159im\u011bje ov\u011b\u0159it se m\u00edsto \u00fato\u010dn\u00edka."},
-            {text:"Funguje pouze na mobiln\u00edch za\u0159\u00edzen\u00edch.",feedback:"Phishing pomoc\u00ed k\u00f3du za\u0159\u00edzen\u00ed funguje na jak\u00e9mkoliv za\u0159\u00edzen\u00ed a prohl\u00ed\u017ee\u010di. Str\u00e1nka microsoft.com/devicelogin je legitimn\u00ed funkce Microsoftu \u2014 \u00fatoky zneu\u017e\u00edvaj\u00ed d\u016fv\u011bru, kterou j\u00ed u\u017eivatel\u00e9 v\u011bnuj\u00ed."}
+            {text:"Obchází vícefaktorové ověřování, protože oběť sama dokončí výzvu MFA.",feedback:"Přesně tak. Při phishingu pomocí kódu zařízení VY dokončíte celé ověření — včetně MFA — a útočník obdrží výsledný token. Proto je to tak nebezpečné."},
+            {text:"Instaluje malware na váš přístroj.",feedback:"Phishing pomocí kódu zařízení typicky nezahrnuje malware. Jeho síla spočívá v tom, že vás přiměje ověřit se místo útočníka."},
+            {text:"Funguje pouze na mobilních zařízeních.",feedback:"Phishing pomocí kódu zařízení funguje na jakémkoliv zařízení a prohlížeči. Stránka microsoft.com/devicelogin je legitimní funkce Microsoftu — útoky zneužívají důvěru, kterou jí uživatelé věnují."}
           ]
         }
       ]
     },
     vishing: {
-      title:"Naléhav\u00fd hovor o platb\u011b",
-      desc:"Neo\u010dek\u00e1van\u00fd telefonn\u00ed hovor po\u017eaduje okam\u017eitou akci v souvislosti s \u00fadajn\u011b neprovedenou platbou.",
-      difficulty:"St\u0159edn\u00ed", badge:"SOCI\u00c1LN\u00cd IN\u017dEN\u00ddRSTV\u00cd",
+      title:"Naléhavý hovor o platbě",
+      desc:"Neočekávaný telefonní hovor požaduje okamžitou akci v souvislosti s údajně neprovedenou platbou.",
+      difficulty:"Střední", badge:"SOCIÁLNÍ INŽENÝRSTVÍ",
       lessons:[
-        "Legitimn\u00ed banky a dodavatel\u00e9 v\u00e1s nikdy nebudou tla\u010dit, abyste okam\u017eit\u011b sd\u011blili \u00fadaje o kart\u011b po telefonu.",
-        "ID vol\u00e1n\u00ed lze zfalzifikovat \u2014 zn\u00e1m\u00e9 \u010d\u00edslo nezaru\u010duje legitimn\u00edho vol\u00e1n\u00edho.",
-        "V\u017edy zav\u011este a zavolejte zp\u011bt na \u010d\u00edslo z ofici\u00e1ln\u00edho webu nebo z va\u0161\u00ed evidence.",
-        "Taktiky n\u00e1tlaku jako urgentnost, hrozby ztr\u00e1ty slu\u017eby nebo agresivn\u00ed tón jsou klasick\u00e9 varovn\u00e9 sign\u00e1ly soci\u00e1ln\u00edho in\u017een\u00fdrstv\u00ed.",
-        "Nikdy nikomu, kdo v\u00e1m vol\u00e1, ne\u010dtěte \u00fapln\u00e1 \u010d\u00edsla karet, CVV k\u00f3dy ani PIN."
+        "Legitimní banky a dodavatelé vás nikdy nebudou tlačit, abyste okamžitě sdělili údaje o kartě po telefonu.",
+        "ID volání lze zfalšovat — známé číslo nezaručuje legitimního volajícího.",
+        "Vždy zavěste a zavolejte zpět na číslo z oficiálního webu nebo z vaší evidence.",
+        "Taktiky nátlaku jako urgentnost, hrozby ztráty služby nebo agresivní tón jsou klasické varovné signály sociálního inženýrství.",
+        "Nikdy nikomu, kdo vám volá, nečtěte úplná čísla karet, CVV kódy ani PIN."
       ],
       steps:[
         {
-          narrative:"<strong>15:30 \u2014 Zazvoní v\u00e1\u0161 stoln\u00ed telefon.</strong> Vol\u00e1n\u00edm tvrd\u00ed, \u017ee je od dodavatele, kter\u00e9ho va\u0161e firma skute\u010dn\u011b vyu\u017e\u00edv\u00e1. Zn\u00ed profesion\u00e1ln\u011b a nal\u00e9hav\u011b. Jak reagujete?",
+          narrative:"<strong>15:30 — Zazvoní váš stolní telefon.</strong> Volající tvrdí, že je od dodavatele, kterého vaše firma skutečně využívá. Zní profesionálně a naléhavě. Jak reagujete?",
           phoneData:{
-            caller:"Jana Hor\u00e1\u010dkov\u00e1",
-            subtitle:"Fakturace dodavatel\u016f \u2014 CloudSync Solutions",
-            transcript:"\"Dobr\u00fd den, jsem Jana Hor\u00e1\u010dkov\u00e1 z \u00fa\u010detn\u00edho odd\u011blen\u00ed CloudSync Solutions. Vol\u00e1m, proto\u017ee va\u0161e posledn\u00ed platba p\u0159edplatn\u00e9ho ve v\u00fd\u0161i <strong>4 200 K\u010d</strong> <strong>selhala</strong> a va\u0161e slu\u017eby budou <strong>pozastaveny dnes v 17:00</strong>, pokud okam\u017eit\u011b nezpracujeme n\u00e1hradn\u00ed platbu. Pot\u0159ebuji \u010d\u00edslo va\u0161\u00ed firemn\u00ed kreditn\u00ed karty, abych to mohla zpracovat hned te\u010f.\""
+            caller:"Jana Horáčková",
+            subtitle:"Fakturace dodavatelů — CloudSync Solutions",
+            transcript:"\"Dobrý den, jsem Jana Horáčková z účetního oddělení CloudSync Solutions. Volám, protože vaše poslední platba předplatného ve výši <strong>4 200 Kč</strong> <strong>selhala</strong> a vaše služby budou <strong>pozastaveny dnes v 17:00</strong>, pokud okamžitě nezpracujeme náhradní platbu. Potřebuji číslo vaší firemní kreditní karty, abych to mohla zpracovat hned teď.\""
           },
           choices:[
-            {text:"Poskytnout \u00fadaje o kart\u011b \u2014 nem\u016f\u017eeme si dovolit ztratit tuto slu\u017ebu!",feedback:"Nikdy neposkytujte platebn\u00ed \u00fadaje p\u0159\u00edch\u00e1zej\u00edcímu vol\u00e1n\u00edmu. Podvodn\u00edci zji\u0161\u0165uj\u00ed, kter\u00e9 dodavatele firmy vyu\u017e\u00edvaj\u00ed, a vytv\u00e1\u0159ej\u00ed nal\u00e9havost, aby obli\u0161li v\u00e1\u0161 kritick\u00fd \u00fasudek. Toto je klasick\u00fd vishingov\u00fd \u00fatoky."},
-            {text:"\"Mus\u00edm to ov\u011b\u0159it. Zavol\u00e1m na va\u0161e \u00fa\u010detn\u00ed odd\u011blen\u00ed na \u010d\u00edsle, kter\u00e9 m\u00e1me v evidenci.\"",feedback:"Toto je spr\u00e1vn\u00e1 odpov\u011b\u010f. Zav\u011b\u0161en\u00ed a zp\u011btn\u00e9 zavol\u00e1n\u00ed na ov\u011b\u0159en\u00e9 \u010d\u00edslo p\u0159eru\u0161\u00ed kontrolu podvodn\u00edka nad rozhovorem. Legitimn\u00ed dodavatel\u00e9 pochop\u00ed a ocen\u00ed va\u0161i opatrnost."},
-            {text:"Po\u017e\u00e1dat Janu, aby ov\u011b\u0159ila n\u011bkter\u00e9 detaily \u00fa\u010dtu, aby prok\u00e1zala sv\u00e9 opr\u00e1vn\u011bnost.",feedback:"Podvodn\u00edci m\u00edvaj\u00ed dostatek informac\u00ed na to, aby zn\u011bli p\u0159esv\u011bd\u010div\u011b \u2014 \u010d\u00edslo smlouvy, jm\u00e9no account mana\u017eera, platebn\u00ed historii. Jejich \u201eov\u011b\u0159en\u00ed\u201c nic nedokazuje."},
-            {text:"D\u00e1t ji na \u010dek\u00e1n\u00ed, zat\u00edmco rychle zkontrolujete, zda platba skute\u010dn\u011b selhala.",feedback:"Ponech\u00e1n\u00ed podvodn\u00edka na lince zachov\u00e1v\u00e1 jejich p\u0159\u00edle\u017eitost v\u00e1s pod tlakem. Nejbezpe\u010dn\u011bj\u0161\u00edm p\u0159\u00edstupem je hovor ukon\u010dit a zavolat zp\u011bt na ov\u011b\u0159en\u00e9 \u010d\u00edslo."}
+            {text:"Poskytnout údaje o kartě — nemůžeme si dovolit ztratit tuto službu!",feedback:"Nikdy neposkytujte platební údaje volajícímu v příchozím hovoru. Podvodníci zjišťují, které dodavatele firmy využívají, a vytvářejí naléhavost, aby obešli váš kritický úsudek. Toto je klasický vishingový útok."},
+            {text:"\"Musím to ověřit. Zavolám na vaše účetní oddělení na čísle, které máme v evidenci.\"",feedback:"Toto je správná odpověď. Zavěšení a zpětné zavolání na ověřené číslo přeruší kontrolu podvodníka nad rozhovorem. Legitimní dodavatelé pochopí a ocení vaši opatrnost."},
+            {text:"Požádat Janu, aby ověřila některé detaily účtu, aby prokázala svou oprávněnost.",feedback:"Podvodníci mívají dostatek informací na to, aby zněli přesvědčivě — číslo smlouvy, jméno account manažera, platební historii. Jejich „ověření“ nic nedokazuje."},
+            {text:"Dát ji na čekání, zatímco rychle zkontrolujete, zda platba skutečně selhala.",feedback:"Ponechání podvodníka na lince zachovává jejich příležitost vás pod tlakem. Nejbezpečnějším přístupem je hovor ukončit a zavolat zpět na ověřené číslo."}
           ]
         },
         {
-          narrative:"Rekli jste \u201eJan\u011b\u201c, \u017ee zavoláte zpátky. Stala se znatelně rozru\u0161enou: <em>\"Tohle opravdu nem\u016f\u017ee \u010dekat \u2014 pokud va\u0161e slu\u017eby vypadnou, dotkne se to cel\u00e9ho va\u0161eho t\u00fdmu. Pot\u0159ebuji jen \u010d\u00edslo karty a do 2 minut to vy\u0159\u00eddím.\"</em> V\u0161imli jste si <strong class=\"red-flag\">zvy\u0161uj\u00edc\u00edho se tlaku a nal\u00e9havosti</strong>. Co ud\u011bl\u00e1te?",
+          narrative:"Řekli jste „Janě“, že zavoláte zpátky. Stala se znatelně rozrušenou: <em>\"Tohle opravdu nemůže čekat — pokud vaše služby vypadnou, dotkne se to celého vašeho týmu. Potřebuji jen číslo karty a do 2 minut to vyřídím.\"</em> Všimli jste si <strong class=\"red-flag\">zvyšujícího se tlaku a naléhavosti</strong>. Co uděláte?",
           choices:[
-            {text:"Vydr\u017eet \u2014 zav\u011bsit a zavolat CloudSync na \u010d\u00edsle z jejich ofici\u00e1ln\u00edho webu.",feedback:"Eskaluj\u00edc\u00ed tlak je d\u016fle\u017eit\u00fd varovn\u00fd sign\u00e1l. Legitimn\u00ed firmy v\u00e1s takto nikdy pod tlak nestavěj\u00ed. Zav\u011b\u0161en\u00edm a nez\u00e1visl\u00fdm ov\u011b\u0159en\u00edm si zachov\u00e1te kontrolu."},
-            {text:"Ustoupit, proto\u017ee tlak nar\u016fst\u00e1 a zn\u00ed to jako skute\u010dn\u00e1 nouze.",feedback:"Tlak JE \u00fatoky. Podvodn\u00edci jsou cvi\u010den\u00ed k eskalaci nal\u00e9havosti pr\u00e1v\u011b tehdy, kdy\u017e odol\u00e1v\u00e1te. \u010c\u00edm beznad\u011bj\u011bn\u011bji zn\u00ed, t\u00edm sp\u00ed\u0161e jde o podvod."},
-            {text:"Nab\u00ednout platebn\u00ed p\u0159evod m\u00edsto karty pro v\u011bt\u0161\u00ed bezpe\u010d\u00ed.",feedback:"Zm\u011bna zp\u016fsobu platby ji ne\u010dn\u00ed bezpe\u010dn\u011bj\u0161\u00ed \u2014 st\u00e1le byste pos\u00edlali pen\u00edze podvodn\u00edkovi. Zp\u016fsob platby nen\u00ed probl\u00e9mem; neov\u011b\u0159en\u00fd vol\u00e1n\u00ed j\u00edm je."}
+            {text:"Vydržet — zavěsit a zavolat CloudSync na čísle z jejich oficiálního webu.",feedback:"Eskalující tlak je důležitý varovný signál. Legitimní firmy vás takto nikdy pod tlak nestavějí. Zavěšením a nezávislým ověřením si zachováte kontrolu."},
+            {text:"Ustoupit, protože tlak narůstá a zní to jako skutečná nouze.",feedback:"Tlak JE útok. Podvodníci jsou cvičení k eskalaci naléhavosti právě tehdy, když odoláváte. Čím beznadějněji zní, tím spíše jde o podvod."},
+            {text:"Nabídnout platební převod místo karty pro větší bezpečí.",feedback:"Změna způsobu platby ji neudělá bezpečnější — stále byste posílali peníze podvodníkovi. Způsob platby není problémem; problémem je neověřený volající."}
           ]
         },
         {
-          narrative:"Zavolali jste CloudSync na jejich ov\u011b\u0159en\u00e9m \u010d\u00edsle. Jejich <em>skute\u010dn\u00fd</em> \u00fa\u010detn\u00ed t\u00fdm potvrdil: <strong>va\u0161e platba prob\u011bhla \u00fasp\u011b\u0161n\u011b minul\u00fd t\u00fdden a \u017e\u00e1dn\u00e1 Jana Hor\u00e1\u010dkov\u00e1 u nich nepracuje.</strong> <br><br><strong>Z\u00e1v\u011bre\u010dn\u00e1 ot\u00e1zka:</strong> Co by m\u011bla va\u0161e firma ud\u011blat, aby p\u0159ede\u0161la budouc\u00edm vishinkov\u00fdm \u00fatok\u016fm?",
+          narrative:"Zavolali jste CloudSync na jejich ověřeném čísle. Jejich <em>skutečný</em> účetní tým potvrdil: <strong>vaše platba proběhla úspěšně minulý týden a žádná Jana Horáčková u nich nepracuje.</strong> <br><br><strong>Závěrečná otázka:</strong> Co by měla vaše firma udělat, aby předešla budoucím vishingovým útokům?",
           choices:[
-            {text:"Stanovit pravidlo, \u017ee platebn\u00ed informace nejsou nikdy poskytov\u00e1ny p\u0159\u00edch\u00e1zej\u00edc\u00edm vol\u00e1n\u00edm, a zavést postup zp\u011btn\u00e9ho ov\u011b\u0159ovac\u00edho vol\u00e1n\u00ed.",feedback:"Jasn\u00e1 politika odstra\u0148uje nejednozna\u010dnost, kter\u00e9 podvodn\u00edci zneu\u017e\u00edvaj\u00ed. Kdy\u017e plat\u00ed pravidlo \u201eplatby v p\u0159\u00edch\u00e1zej\u00edc\u00edch hovorech nikdy nezpracov\u00e1v\u00e1me\u201c, zam\u011bstnanci mohou s jistotou odm\u00edtnout."},
-            {text:"Zablokovat telefonn\u00ed \u010d\u00edslo, ze kter\u00e9ho bylo vol\u00e1no.",feedback:"Podvodn\u00edci pou\u017e\u00edvaj\u00ed podvr\u017een\u00e1 \u010d\u00edsla a ka\u017edou chv\u00edli vol\u00e1j\u00ed z jin\u00fdch \u010d\u00edsel. Blokov\u00e1n\u00ed jednoho \u010d\u00edsla poskytuje minim\u00e1ln\u00ed ochranu. Syst\u00e9mov\u00e9 politiky a \u0161kolen\u00ed jsou daleko \u00fa\u010dinn\u011bj\u0161\u00ed."},
-            {text:"Zpracov\u00e1vat platby pouze e-mailem m\u00edsto telefonicky.",feedback:"Podvody s platbami p\u0159es e-mail (Business Email Compromise) jsou stejn\u011b \u010dasté a nebezpe\u010dn\u00e9. \u0158e\u0161en\u00edm jsou ov\u011b\u0159ovac\u00ed postupy, ne zm\u011bna komunika\u010dn\u00edho kan\u00e1lu."}
+            {text:"Stanovit pravidlo, že platební informace nejsou nikdy poskytovány volajícím v příchozích hovorech, a zavést postup zpětného ověřovacího volání.",feedback:"Jasná politika odstraňuje nejednoznačnost, které podvodníci zneužívají. Když platí pravidlo „platby v příchozích hovorech nikdy nezpracováváme“, zaměstnanci mohou s jistotou odmítnout."},
+            {text:"Zablokovat telefonní číslo, ze kterého bylo voláno.",feedback:"Podvodníci používají podvržená čísla a každou chvíli volají z jiných čísel. Blokování jednoho čísla poskytuje minimální ochranu. Systémové politiky a školení jsou daleko účinnější."},
+            {text:"Zpracovávat platby pouze e-mailem místo telefonicky.",feedback:"Podvody s platbami přes e-mail (Business Email Compromise) jsou stejně časté a nebezpečné. Řešením jsou ověřovací postupy, ne změna komunikačního kanálu."}
           ]
         }
       ]
     },
     insider: {
-      title:"\u017d\u00e1dost o zkratku",
-      desc:"Kolega v\u00e1s \u017e\u00e1d\u00e1, abyste obe\u0161li pravidla p\u0159\u00edstupu k syst\u00e9mu. Zd\u00e1 se, \u017ee m\u00e1 dobr\u00fd d\u016fvod...",
-      difficulty:"T\u011b\u017ek\u00e1", badge:"VNIT\u0158N\u00cd HROZBA",
+      title:"Žádost o zkratku",
+      desc:"Kolega vás žádá, abyste obešli pravidla přístupu k systému. Zdá se, že má dobrý důvod...",
+      difficulty:"Těžká", badge:"VNITŘNÍ HROZBA",
       lessons:[
-        "Procesy \u0159\u00edzen\u00ed p\u0159\u00edstupu existuj\u00ed k ochran\u011b organizace \u2014 neexistuj\u00ed \u017e\u00e1dn\u00e9 \u201enevinné\u201c zkratky.",
-        "I d\u016fv\u011bryhodn\u00ed kolegov\u00e9 by m\u011bli dodr\u017eovat \u0159\u00e1dn\u00e9 schvalovac\u00ed postupy pro \u017e\u00e1dosti o p\u0159\u00edstup.",
-        "Ud\u011blen\u00ed neopr\u00e1vn\u011bn\u00e9ho p\u0159\u00edstupu m\u016f\u017ee poru\u0161ovat po\u017eadavky na soulad s p\u0159edpisy a vytv\u00e1\u0159et selhán\u00ed auditu.",
-        "Soci\u00e1ln\u00ed in\u017een\u00fdrstv\u00ed nep\u0159ich\u00e1z\u00ed jen zven\u010d\u00ed \u2014 tlak od koleg\u016f m\u016f\u017ee b\u00fdt stejn\u011b manipulativn\u00ed.",
-        "V p\u0159\u00edpad\u011b pochybnost\u00ed eskalujte na sv\u00e9ho mana\u017eera nebo vlastn\u00edka syst\u00e9mu, sp\u00ed\u0161e ne\u017e \u017ee sami ud\u011bl\u00edte p\u0159\u00edstup."
+        "Procesy řízení přístupu existují k ochraně organizace — neexistují žádné „nevinné“ zkratky.",
+        "I důvěryhodní kolegové by měli dodržovat řádné schvalovací postupy pro žádosti o přístup.",
+        "Udělení neoprávněného přístupu může porušovat požadavky na soulad s předpisy a vytvářet selhání auditu.",
+        "Sociální inženýrství nepřichází jen zvenčí — tlak od kolegů může být stejně manipulativní.",
+        "V případě pochybností eskalujte na svého manažera nebo vlastníka systému, spíše než že sami udělíte přístup."
       ],
       steps:[
         {
-          narrative:"<strong>13:45 \u2014 Zpr\u00e1va v Teams od Martina.</strong> Martina z marketingu zn\u00e1te \u2014 je obl\u00edben\u00fd a tohle zn\u00ed jako skute\u010dn\u00fd \u010dasov\u00fd tlak. Ale \u017e\u00e1d\u00e1 v\u00e1s, abyste obe\u0161li proces schvalov\u00e1n\u00ed p\u0159\u00edstupu. Co ud\u011bl\u00e1te?",
+          narrative:"<strong>13:45 — Zpráva v Teams od Martina.</strong> Martina z marketingu znáte — je oblíbený a tohle zní jako skutečný časový tlak. Ale žádá vás, abyste obešli proces schvalování přístupu. Co uděláte?",
           chatData:{messages:[
-            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Ahoj! Mal\u00e1 laskavost \u2014 pot\u0159ebuji okam\u017eit\u00fd p\u0159\u00edstup k dashboardu analytiky z\u00e1kazn\u00edk\u016f. Moje \u017e\u00e1dost o p\u0159\u00edstup se zasekla ve front\u011b ke schv\u00e1len\u00ed a ve 16:00 m\u00e1m prezentaci pro p\u0159edstavenstvo."},
-            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Mohl/a bys jednoduše sd\u00edlet sv\u00e9 p\u0159ihla\u0161ovac\u00ed \u00fadaje nebo m\u011b p\u0159idat jako prohl\u00ed\u017eej\u00edc\u00edho? Je to stejn\u011b jen pro \u010dten\u00ed, nic se nestane. Pod\u00e1m \u0159\u00e1dnou \u017e\u00e1dost pot\u00f3m, slibuji! \ud83d\ude4f"}
+            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Ahoj! Malá laskavost — potřebuji okamžitý přístup k dashboardu analytiky zákazníků. Moje žádost o přístup se zasekla ve frontě ke schválení a ve 16:00 mám prezentaci pro představenstvo."},
+            {sender:"Martin Dvořák — Marketingový manažer",avatar:"MD",text:"Mohl/a bys jednoduše sdílet své přihlašovací údaje nebo mě přidat jako prohlížejícího? Je to stejně jen pro čtení, nic se nestane. Podám řádnou žádost potom, slibuji! 🙏"}
           ]},
           choices:[
-            {text:"Sd\u00edlet p\u0159ihla\u0161ovac\u00ed \u00fadaje jen tentokr\u00e1t \u2014 Martin je d\u016fv\u011bryhodn\u00fd a jde jen o \u010dten\u00ed.",feedback:"Nikdy nesdílejte p\u0159ihla\u0161ovac\u00ed \u00fadaje, ani s d\u016fv\u011bryhodn\u00fdmi kolegy. Sd\u00edlen\u00e9 \u00fadaje znemožňuj\u00ed audit, kdo k \u010demu p\u0159istupoval, poru\u0161uj\u00ed compliance a pokud se n\u011bco pokazí, nesete zodpov\u011bdnost vy."},
-            {text:"P\u0159idat Martina jako prohl\u00ed\u017eej\u00edc\u00edho, proto\u017ee jde jen o p\u0159\u00edstup ke \u010dten\u00ed \u2014 jak\u00e1 je \u0161koda?",feedback:"\u201ePouze ke \u010dten\u00ed\u201c neznamená bez rizika. Ud\u011blen\u00ed neopr\u00e1vn\u011bn\u00e9ho p\u0159\u00edstupu obch\u00e1z\u00ed schvalovac\u00ed procesy, kter\u00e9 existuj\u00ed z regula\u010dn\u00edch, pr\u00e1vn\u00edch a bezpe\u010dnostn\u00edch d\u016fvod\u016f."},
-            {text:"Vysv\u011btlit, \u017ee nem\u016f\u017ete obej\u00edt proces, a nab\u00ednout pomoc s urychlením legitimn\u00ed \u017e\u00e1dosti.",feedback:"To je spr\u00e1vn\u00e1 rovnov\u00e1ha mezi b\u00fdt n\u00e1pomocn\u00fd a bezpe\u010dn\u00fd. M\u016f\u017eete Martinovi pomoci p\u0159\u00edmo kontaktovat schvalovatele nebo navrhnout, aby po\u017e\u00e1dal sv\u00e9ho mana\u017eera o urychlen\u00ed."},
-            {text:"Zpr\u00e1vu ignorovat \u2014 nen\u00ed to v\u00e1\u0161 probl\u00e9m.",feedback:"Ignorov\u00e1n\u00ed \u017e\u00e1dosti nen\u00ed ide\u00e1ln\u00ed. B\u00fdt n\u00e1pomocn\u00fd a nasměrovat Martina na spr\u00e1vn\u00fd postup buduje pozitivn\u00ed bezpe\u010dnostn\u00ed kulturu. Ignorov\u00e1n\u00ed ho m\u016f\u017ee p\u0159im\u011bt k hled\u00e1n\u00ed m\u00e9n\u011b bezpe\u010dn\u00fdch \u0159e\u0161en\u00ed."}
+            {text:"Sdílet přihlašovací údaje jen tentokrát — Martin je důvěryhodný a jde jen o čtení.",feedback:"Nikdy nesdílejte přihlašovací údaje, ani s důvěryhodnými kolegy. Sdílené údaje znemožňují audit, kdo k čemu přistupoval, porušují compliance a pokud se něco pokazí, nesete zodpovědnost vy."},
+            {text:"Přidat Martina jako prohlížejícího, protože jde jen o přístup ke čtení — jaká je škoda?",feedback:"„Pouze ke čtení“ neznamená bez rizika. Udělení neoprávněného přístupu obchází schvalovací procesy, které existují z regulačních, právních a bezpečnostních důvodů."},
+            {text:"Vysvětlit, že nemůžete obejít proces, a nabídnout pomoc s urychlením legitimní žádosti.",feedback:"To je správná rovnováha mezi tím být nápomocný a zároveň bezpečný. Můžete Martinovi pomoci přímo kontaktovat schvalovatele nebo navrhnout, aby požádal svého manažera o urychlení."},
+            {text:"Zprávu ignorovat — není to váš problém.",feedback:"Ignorování žádosti není ideální. Být nápomocný a nasměrovat Martina na správný postup buduje pozitivní bezpečnostní kulturu. Ignorování ho může přimět k hledání méně bezpečných řešení."}
           ]
         },
         {
-          narrative:"Martin trv\u00e1 na sv\u00e9m s <strong class=\"red-flag\">emo\u010dn\u00edm tlakem a tvrzen\u00edmi o \u00fastn\u00edm schv\u00e1len\u00ed</strong>. Situace se st\u00e1v\u00e1 nep\u0159\u00edjemnou. Jak\u00fd je v\u00e1\u0161 tah?",
+          narrative:"Martin trvá na svém s <strong class=\"red-flag\">emočním tlakem a tvrzeními o ústním schválení</strong>. Situace se stává nepříjemnou. Jaký je váš tah?",
           chatData:{messages:[
-            {text:"No tak, schvalovac\u00ed proces trv\u00e1 DNY a tohle je pro P\u0158EDSTAVENSTVO. M\u016fj mana\u017eer to u\u017e \u00fastn\u011b schv\u00e1lil, \u010dek\u00e1 jen na tiket. Chce\u0161 m\u011b opravdu nechat vypadat \u0161patn\u011b p\u0159ed \u0159editeli?"},
-            {text:"Pod\u00edvej, nikomu to ne\u0159eknu. Jen 20 minut p\u0159\u00edstupu, pak ho klidn\u011b odvolej. Pros\u00edm? \ud83d\ude29"}
+            {text:"No tak, schvalovací proces trvá DNY a tohle je pro PŘEDSTAVENSTVO. Můj manažer to už ústně schválil, čeká jen na tiket. Chceš mě opravdu nechat vypadat špatně před řediteli?"},
+            {text:"Podívej, nikomu to neřeknu. Jen 20 minut přístupu, pak ho klidně odvolej. Prosím? 😩"}
           ]},
           choices:[
-            {text:"Ustoupit \u2014 emo\u010dn\u00ed tlak je p\u0159\u00edli\u0161 velk\u00fd a oni z\u0159ejm\u011b schv\u00e1len\u00ed opravdu maj\u00ed.",feedback:"\u201e\u00cdstn\u00ed schv\u00e1len\u00ed\u201c je z hlediska compliance neov\u011b\u0159iteln\u00e9 a bezvyznamn\u00e9. Eskaluj\u00edc\u00ed tlak, emo\u010dn\u00ed apely a tajnostk\u00e1\u0159stv\u00ed jsou u\u010debnicov\u00e9 taktiky soci\u00e1ln\u00edho in\u017een\u00fdrstv\u00ed \u2014 i ze strany insider\u016f."},
-            {text:"Zd\u0159vile trv\u00e1t na sv\u00e9m a navrhnout, aby Jord\u00e1n\u016fv mana\u017eer kontaktoval vlastn\u00edka syst\u00e9mu kv\u016fli urychlen\u00ed schv\u00e1len\u00ed.",feedback:"Pokud mana\u017eer schv\u00e1len\u00ed skute\u010dn\u011b udělil, m\u016f\u017ee ho form\u00e1ln\u011b eskalovat b\u011bhem minut. T\u00edm se zachov\u00e1v\u00e1 proces a z\u00e1rove\u0148 se Martinovi nab\u00edz\u00ed legitimn\u00ed rychl\u00e1 cesta."},
-            {text:"Zeptat se vlastn\u00edho mana\u017eera, zda je v po\u0159\u00e1dku ud\u011blat v\u00fdjimku.",feedback:"P\u0159esto\u017ee eskalace sv\u011bd\u010d\u00ed o dobr\u00e9m instinktu, po\u017eadov\u00e1n\u00ed od sv\u00e9ho mana\u017eera, aby schv\u00e1lil obch\u00e1zen\u00ed, st\u00e1le obch\u00e1z\u00ed zaveden\u00fd proces. Spr\u00e1vnou cestou je pom\u00e1hat Martinovi pracovat v r\u00e1mci syst\u00e9mu."}
+            {text:"Ustoupit — emoční tlak je příliš velký a oni zřejmě schválení opravdu mají.",feedback:"„Ústní schválení“ je z hlediska compliance neověřitelné a bezvýznamné. Eskalující tlak, emoční apely a tajnostkářství jsou učebnicové taktiky sociálního inženýrství — i ze strany insiderů."},
+            {text:"Zdvořile trvat na svém a navrhnout, aby Martinův manažer kontaktoval vlastníka systému kvůli urychlení schválení.",feedback:"Pokud manažer schválení skutečně udělil, může ho formálně eskalovat během minut. Tím se zachovává proces a zároveň se Martinovi nabízí legitimní rychlá cesta."},
+            {text:"Zeptat se vlastního manažera, zda je v pořádku udělat výjimku.",feedback:"Přestože eskalace svědčí o dobrém instinktu, požadování od svého manažera, aby schválil obcházení, stále obchází zavedený proces. Správnou cestou je pomáhat Martinovi pracovat v rámci systému."}
           ]
         },
         {
-          narrative:"Jord\u00e1n\u016fv mana\u017eer urychlil schv\u00e1len\u00ed spr\u00e1vn\u00fdm kan\u00e1lem a Martin dostal p\u0159\u00edstup do 30 minut \u2014 v\u010das na prezentaci pro p\u0159edstavenstvo. <br><br>IT bezpe\u010dnostn\u00ed t\u00fdm zm\u00ednil ned\u00e1vn\u00fd n\u00e1r\u016fst <strong>pokus\u016f o neopr\u00e1vn\u011bn\u00fd p\u0159\u00edstup</strong>. Va\u0161e svědomitost pomohla udr\u017eet va\u0161i organizaci v souladu s p\u0159edpisy. <br><br><strong>Z\u00e1v\u011bre\u010dn\u00e1 ot\u00e1zka:</strong> Pro\u010d jsou intern\u00ed \u017e\u00e1dosti o obch\u00e1zen\u00ed pravidel obzv\u00e1\u0161t\u011b nebezpe\u010dn\u00e9, i kdy\u017e jsou m\u00ednéné v dobr\u00e9m?",
+          narrative:"Martinův manažer urychlil schválení správným kanálem a Martin dostal přístup do 30 minut — včas na prezentaci pro představenstvo. <br><br>IT bezpečnostní tým zmínil nedávný nárůst <strong>pokusů o neoprávněný přístup</strong>. Vaše svědomitost pomohla udržet vaši organizaci v souladu s předpisy. <br><br><strong>Závěrečná otázka:</strong> Proč jsou interní žádosti o obcházení pravidel obzvlášť nebezpečné, i když jsou míněné v dobrém?",
           choices:[
-            {text:"Naru\u0161uj\u00ed kulturu \u0159\u00edzen\u00ed p\u0159\u00edstupu \u2014 ka\u017ed\u00e1 v\u00fdjimka usnadňuje od\u016fvodn\u011bn\u00ed dal\u0161\u00edho obch\u00e1zen\u00ed.",feedback:"P\u0159esn\u011b tak. Jedna \u201enevinná\u201c zkratka normalizuje obch\u00e1zen\u00ed kontrol. Postupem \u010dasu to vytv\u00e1\u0159\u00ed prost\u0159ed\u00ed, kde jsou \u0159\u00e1dn\u00e9 postupy vn\u00edm\u00e1ny jako p\u0159ek\u00e1\u017eky sp\u00ed\u0161e ne\u017e ochrana."},
-            {text:"Proto\u017ee \u017eadatel je v\u017edy z\u00e1\u0161kodn\u00edk\u00fd insider.",feedback:"V\u011bt\u0161ina \u017e\u00e1dost\u00ed o obch\u00e1zen\u00ed poch\u00e1z\u00ed od dob\u0159e m\u00ednénych lid\u00ed pod \u010dasov\u00fdm tlakem \u2014 jako Martin. Nebezpe\u010d\u00edm nen\u00ed zl\u00fd \u00fam\u00fdsl; je to preced\u011bns, kter\u00fd se t\u00edm vytv\u00e1\u0159\u00ed."},
-            {text:"Je to nebezpe\u010dn\u00e9 jen tehdy, kdy\u017e osoba z\u00edsk\u00e1 p\u0159\u00edstup pro z\u00e1pis.",feedback:"I p\u0159\u00edstup pouze ke \u010dten\u00ed k citliv\u00fdm dat\u016fm (z\u00e1znamy z\u00e1kazn\u00edk\u016f, finan\u010dn\u00ed data, strategick\u00e9 pl\u00e1ny) m\u016f\u017ee zp\u016fsobit v\u00e1\u017en\u00e9 \u0161kody. \u00darove\u0148 p\u0159\u00edstupu neur\u010duje riziko \u2014 opr\u00e1vn\u011bn\u00ed ho ur\u010duje."}
+            {text:"Narušují kulturu řízení přístupu — každá výjimka usnadňuje odůvodnění dalšího obcházení.",feedback:"Přesně tak. Jedna „nevinná“ zkratka normalizuje obcházení kontrol. Postupem času to vytváří prostředí, kde jsou řádné postupy vnímány jako překážky spíše než ochrana."},
+            {text:"Protože žadatel je vždy záškodnický insider.",feedback:"Většina žádostí o obcházení pochází od dobře míněných lidí pod časovým tlakem — jako Martin. Nebezpečím není zlý úmysl; je to precedens, který se tím vytváří."},
+            {text:"Je to nebezpečné jen tehdy, když osoba získá přístup pro zápis.",feedback:"I přístup pouze ke čtení k citlivým datům (záznamy zákazníků, finanční data, strategické plány) může způsobit vážné škody. Úroveň přístupu neurčuje riziko — oprávnění ho určuje."}
           ]
         }
       ]
@@ -1201,177 +1222,177 @@ Object.assign(SCENARIO_TRANSLATIONS, {
   },
   sk: {
     phishing: {
-      title:"Podozriv\u00fd e-mail",
-      desc:"Do va\u0161ej schr\u00e1nky Outlook pr\u00edde zdanlivo naliehav\u00fd e-mail. Nie\u010do vyzer\u00e1 podozrivo...",
-      difficulty:"Stredn\u00e1", badge:"PHISHING",
+      title:"Podozrivý e-mail",
+      desc:"Do vašej schránky Outlook príde zdanlivo naliehavý e-mail. Niečo vyzerá podozrivo...",
+      difficulty:"Stredná", badge:"PHISHING",
       lessons:[
-        "V\u017edy starostlivo overujte e-mailov\u00fa adresu odosielate\u013ea \u2014 \u00fato\u010dn\u00edci pou\u017e\u00edvaj\u00fa podobne vyzeraj\u00face dom\u00e9ny.",
-        "Pred kliknut\u00edm presu\u0148te kurzor na odkaz a skontrolujte skuto\u010dn\u00fa cie\u013eov\u00fa adresu URL.",
-        "Leg\u00edtimne spolo\u010dnosti v\u00e1s nikdy nebudú naliehavo \u017eiadat o overenie prihlasovac\u00edch \u00fadajov e-mailom.",
-        "V pr\u00edpade pochybnost\u00ed kontaktujte IT bezpe\u010dnos\u0165 prostredn\u00edctvom zn\u00e1meho a d\u00f4veryhodn\u00e9ho kan\u00e1la.",
-        "Podozriv\u00e9 e-maily okam\u017eite nahlá\u0161te prostredn\u00edctvom mechanizmu hl\u00e1senia va\u0161ej organiz\u00e1cie."
+        "Vždy starostlivo overujte e-mailovú adresu odosielateľa — útočníci používajú podobne vyzerajúce domény.",
+        "Pred kliknutím presuňte kurzor na odkaz a skontrolujte skutočnú cieľovú adresu URL.",
+        "Legitímne spoločnosti vás nikdy nebudú naliehavo žiadať o overenie prihlasovacích údajov e-mailom.",
+        "V prípade pochybností kontaktujte IT bezpečnosť prostredníctvom známeho a dôveryhodného kanála.",
+        "Podozrivé e-maily okamžite nahlášte prostredníctvom mechanizmu hlásenia vašej organizácie."
       ],
       steps:[
         {
-          narrative:"<strong>9:02 \u2014 Pondelkov\u00e9 r\u00e1no.</strong> Pr\u00e1ve prech\u00e1dzate e-maily, ke\u010f v\u00e1m prist\u00e1ne t\u00e1to spr\u00e1va. Je ozna\u010den\u00e1 ako d\u00f4le\u017eit\u00e1. \u010co urobíte najsk\u00f4r?",
+          narrative:"<strong>9:02 — Pondelkové ráno.</strong> Práve prechádzate e-maily, keď vám pristáne táto správa. Je označená ako dôležitá. Čo urobíte najskôr?",
           emailData:{
-            to:"vy@vasafirma.sk",subject:"&#9888;&#65039; URGENTN\u00c9: V\u00e1\u0161 \u00fa\u010det bude deaktivovan\u00fd za 24 hod\u00edn",
-            body:`<p>V\u00e1\u017een\u00fd pou\u017e\u00edvate\u013e,</p><p>Na va\u0161om \u00fa\u010dte Microsoft 365 sme zistili <span class="highlight">nezvy\u010dajn\u00fa prihlasovac\u00fa aktivitu</span>. V\u00e1\u0161 \u00fa\u010det bude <span class="highlight">pozastaven\u00fd do 24 hod\u00edn</span>, pokia\u013e neoveríte svoju toto\u017enos\u0165.</p><p>Pre okam\u017eit\u00e9 overenie kliknite na tla\u010didlo ni\u017e\u0161ie:</p><div class="email-btn-fake">&#128274; Overi\u0165 M\u00f4j \u00da\u010det Teraz</div><p style="margin-top:1rem;font-size:0.8rem;color:#64748b;">Ak ste to ne\u017eiadali, pros\u00edm overte sa aj tak pre zaistenie bezpe\u010dnosti \u00fa\u010dtu.<br>Bezpe\u010dnostn\u00fd t\u00edm Microsoft 365</p>`
+            to:"vy@vasafirma.sk",subject:"&#9888;&#65039; URGENTNÉ: Váš účet bude deaktivovaný za 24 hodín",
+            body:`<p>Vážený používateľ,</p><p>Na vašom účte Microsoft 365 sme zistili <span class="highlight">nezvyčajnú prihlasovacú aktivitu</span>. Váš účet bude <span class="highlight">pozastavený do 24 hodín</span>, pokiaľ neoveríte svoju totožnosť.</p><p>Pre okamžité overenie kliknite na tlačidlo nižšie:</p><div class="email-btn-fake">&#128274; Overiť Môj Účet Teraz</div><p style="margin-top:1rem;font-size:0.8rem;color:#64748b;">Ak ste to nežiadali, prosím overte sa aj tak kvôli zaisteniu bezpečnosti účtu.<br>Bezpečnostný tím Microsoft 365</p>`
           },
           choices:[
-            {text:'Klikn\u00fa\u0165 na "Overi\u0165 M\u00f4j \u00da\u010det Teraz" okam\u017eite \u2014 nem\u00f4\u017eem si dovoli\u0165 strati\u0165 pr\u00edstup!',feedback:"Klikanie na odkazy v podozriv\u00fdch e-mailoch je mimoriadne nebezpe\u010dn\u00e9. Mohlo by v\u00e1s to zavies\u0165 na str\u00e1nku zbieraj\u00facu va\u0161e prihlasovacie \u00fadaje. Naliehavos\u0165 je klasick\u00e1 manipula\u010dn\u00e1 taktika."},
-            {text:"Starostlivo skontrolova\u0165 e-mailov\u00fa adresu odosielate\u013ea sk\u00f4r, ne\u017e \u010dokoľvek urobím.",feedback:"V\u00fdborn\u00fd inštinkt! \u201emicros0ft-365.com\u201c odha\u013euje z\u00e1ludnú dom\u00e9nu \u2014 v\u0161imnite si nulu namiesto \u201eo\u201c v slove microsoft. To je klasick\u00fd phishingow\u00fd indik\u00e1tor."},
-            {text:"Preposla\u0165 e-mail cel\u00e9mu t\u00edmu, aby ich upozornil na probl\u00e9m s \u00fa\u010dtom.",feedback:"Preposielanie phishingow\u00fdch e-mailov \u0161\u00edri hrozbu! Kolega by mohol kliknú\u0165 na odkaz. Nikdy nepreposielajte podozriv\u00e9 e-maily \u2014 nahlá\u0161te ich spr\u00e1vnymi kan\u00e1lmi."},
-            {text:"Odpoveda\u0165 na e-mail a op\u00fdta\u0165 sa, \u010di je leg\u00edtimny.",feedback:"Odpovedanie potvrd\u00ed, \u017ee va\u0161a e-mailov\u00e1 adresa je akt\u00edvna \u2014 cenn\u00e1 inform\u00e1cia pre \u00fato\u010dn\u00edkov. Nikdy neodpovedajte na podozriv\u00e9 e-maily; nahláste ich IT bezpe\u010dnostn\u00e9mu oddeleniu."}
+            {text:'Kliknúť na "Overiť Môj Účet Teraz" okamžite — nemôžem si dovoliť stratiť prístup!',feedback:"Klikanie na odkazy v podozrivých e-mailoch je mimoriadne nebezpečné. Mohlo by vás to zaviesť na stránku zbierajúcu vaše prihlasovacie údaje. Naliehavosť je klasická manipulačná taktika."},
+            {text:"Starostlivo skontrolovať e-mailovú adresu odosielateľa skôr, než čokoľvek urobím.",feedback:"Výborný inštinkt! „micros0ft-365.com“ odhaľuje záludnú doménu — všimnite si nulu namiesto „o“ v slove microsoft. To je klasický phishingový indikátor."},
+            {text:"Preposlať e-mail celému tímu, aby ich upozornil na problém s účtom.",feedback:"Preposielanie phishingových e-mailov šíri hrozbu! Kolega by mohol kliknúť na odkaz. Nikdy nepreposielajte podozrivé e-maily — nahlášte ich správnymi kanálmi."},
+            {text:"Odpovedať na e-mail a opýtať sa, či je legitímny.",feedback:"Odpovedanie potvrdí, že vaša e-mailová adresa je aktívna — cenná informácia pre útočníkov. Nikdy neodpovedajte na podozrivé e-maily; nahláste ich IT bezpečnostnému oddeleniu."}
           ]
         },
         {
-          narrative:"Preskúmali ste adresu odosielate\u013ea: <strong>IT-Security@micros0ft-365.com</strong>. V\u0161imli ste si \u201e0\u201c namiesto \u201eo\u201c. Po presunut\u00ed kurzora na odkaz vid\u00edte, \u017ee smeruje na: <strong class=\"red-flag\">http://login-365verify.sketchy-domain.ru/auth</strong>. Ak\u00fd bude v\u00e1\u0161 ďalš\u00ed krok?",
+          narrative:"Preskúmali ste adresu odosielateľa: <strong>IT-Security@micros0ft-365.com</strong>. Všimli ste si „0“ namiesto „o“. Po presunutí kurzora na odkaz vidíte, že smeruje na: <strong class=\"red-flag\">http://login-365verify.sketchy-domain.ru/auth</strong>. Aký bude váš ďalší krok?",
           choices:[
-            {text:'Nahlási\u0165 e-mail tla\u010didlom "Nahlási\u0165 phishing" a upozorni\u0165 IT bezpe\u010dnostn\u00fd t\u00edm.',feedback:"To je spr\u00e1vna akcia. Nahlásenie pom\u00e1ha v\u00e1\u0161mu bezpe\u010dnostn\u00e9mu t\u00edmu blokova\u0165 hrozbu pre cel\u00fa organiz\u00e1ciu a chr\u00e1ni\u0165 v\u0161etk\u00fdch."},
-            {text:"Jednoducho e-mail vyma\u017e\u0165 a pokra\u010dova\u0165 ďalej.",feedback:"Vymaz\u00e1n\u00edm sa chr\u00e1nite vy, ale nie va\u0161i kolegovia. In\u00ed mohli dosta\u0165 ten ist\u00fd e-mail. Nahlásenie zaist\u00ed, \u017ee bezpe\u010dnostn\u00fd t\u00edm m\u00f4\u017ee vyšetrova\u0165 a varova\u0165 ostatn\u00fdch."},
-            {text:"Otvori\u0165 odkaz v anonymnom okne na bezpe\u010dn\u00e9 preskúmanie.",feedback:"Anonymn\u00fd re\u017eim v\u00e1s NECHR\u00c1NI pred \u0161kodliv\u00fdmi webmi. Str\u00e1nka st\u00e1le m\u00f4\u017ee kr\u00e1s\u0165 prihlasovacie \u00fadaje alebo zneu\u017e\u00edva\u0165 zranite\u013enosti prehlia\u010da\u010da. Nechajte vyšetrovanie na bezpe\u010dnostnom t\u00edme."}
+            {text:'Nahlásiť e-mail tlačidlom "Nahlásiť phishing" a upozorniť IT bezpečnostný tím.',feedback:"To je správna akcia. Nahlásenie pomáha vášmu bezpečnostnému tímu blokovať hrozbu pre celú organizáciu a chrániť všetkých."},
+            {text:"Jednoducho e-mail vymazať a pokračovať ďalej.",feedback:"Vymazaním sa chránite vy, ale nie vaši kolegovia. Iní mohli dostať ten istý e-mail. Nahlásenie zabezpečí, že bezpečnostný tím môže vyšetrovať a varovať ostatných."},
+            {text:"Otvoriť odkaz v anonymnom okne na bezpečné preskúmanie.",feedback:"Anonymný režim vás NECHRÁNI pred škodlivými webmi. Stránka stále môže kradnúť prihlasovacie údaje alebo zneužívať zraniteľnosti prehliadača. Nechajte vyšetrovanie na bezpečnostnom tíme."}
           ]
         },
         {
-          narrative:"IT bezpe\u010dnostn\u00fd t\u00edm potvrdil, \u017ee \u0161lo o phishingow\u00fd \u00fatok. Vďaka v\u00e1\u0161mu r\u00fdchlemu nahláseniu mohol t\u00edm <strong>zablokova\u0165 \u0161kodliv\u00fa dom\u00e9nu</strong> a <strong>odosla\u0165 celofiremn\u00e9 upozornenie</strong>. Z\u00e1vere\u010dn\u00e1 ot\u00e1zka \u2014 ako by ste v bud\u00facnosti overili leg\u00edtimny probl\u00e9m s \u00fa\u010dtom?",
+          narrative:"IT bezpečnostný tím potvrdil, že šlo o phishingový útok. Vďaka vášmu rýchlemu nahláseniu mohol tím <strong>zablokovať škodlivú doménu</strong> a <strong>odoslať celofiremné upozornenie</strong>. Záverečná otázka — ako by ste v budúcnosti overili legitímny problém s účtom?",
           choices:[
-            {text:"Prejs\u0165 priamo na portal.office.com zadan\u00edm do prehlia\u010da\u010da alebo kontaktova\u0165 IT na zn\u00e1mom telef\u00f3nnom \u010d\u00edsle.",feedback:"Vždy pristupujte priamo na zn\u00e1me a d\u00f4veryhodn\u00e9 adresy URL alebo kontaktujte IT zavedem\u00fdmi kan\u00e1lmi. Nikdy nepou\u017e\u00edvajte v e-mailoch obsiahnut\u00e9 odkazy pre pr\u00edstup k citliv\u00fdm \u00fa\u010dtom."},
-            {text:'Vyh\u013ead\u00e1\u0165 "prihl\u00e1senie Microsoft 365" na Googli a klikn\u00fa\u0165 na prv\u00fd v\u00fdsledok.',feedback:"\u00dato\u010dn\u00edci si m\u00f4\u017eu k\u00fapi\u0165 reklamy, ktor\u00e9 sa zobrazia nad leg\u00edtimnymi v\u00fdsledkami. V\u017edy zadávajte zn\u00e1me adresy URL priamo."},
-            {text:"Klikn\u00fa\u0165 na odkaz v e-maili, ale pou\u017ei\u0165 falo\u0161n\u00e9 heslo na otestovanie.",feedback:"Aj zad\u00e1vanie falo\u0161n\u00fdch \u00fadajov na phishingovej str\u00e1nke je riskantn\u00e9 \u2014 str\u00e1nka m\u00f4\u017ee nasadi\u0165 malv\u00e9r alebo interakciu vyu\u017ei\u0165 na ďalší postup \u00fatoku."}
+            {text:"Prejsť priamo na portal.office.com zadaním do prehliadača alebo kontaktovať IT na známom telefónnom čísle.",feedback:"Vždy pristupujte priamo na známe a dôveryhodné adresy URL alebo kontaktujte IT zavedenými kanálmi. Nikdy nepoužívajte odkazy obsiahnuté v e-mailoch na prístup k citlivým účtom."},
+            {text:'Vyhľadať "prihlásenie Microsoft 365" na Googli a kliknúť na prvý výsledok.',feedback:"Útočníci si môžu kúpiť reklamy, ktoré sa zobrazia nad legitímnymi výsledkami. Vždy zadávajte známe adresy URL priamo."},
+            {text:"Kliknúť na odkaz v e-maili, ale použiť falošné heslo na otestovanie.",feedback:"Aj zadávanie falošných údajov na phishingovej stránke je riskantné — stránka môže nasadiť malvér alebo interakciu využiť na ďalší postup útoku."}
           ]
         }
       ]
     },
     'device-code': {
-      title:"Pas\u010da s k\u00f3dom zariadenia",
-      desc:"Neo\u010dak\u00e1van\u00e1 po\u017eiadavka na overenie v\u00e1s \u017eiada zada\u0165 k\u00f3d na prihlasovac\u00eder str\u00e1nke Microsoftu.",
-      difficulty:"T\u0165a\u017ek\u00e1", badge:"PHISHING K\u00d3DOM ZARIADENIA",
+      title:"Pasca s kódom zariadenia",
+      desc:"Neočakávaná požiadavka na overenie vás žiada zadať kód na prihlasovacej stránke Microsoftu.",
+      difficulty:"Ťažká", badge:"PHISHING KÓDOM ZARIADENIA",
       lessons:[
-        "Po\u017eiadavky na overenie k\u00f3dom zariadenia, ktor\u00e9 ste sami neiniciovali, s\u00fa takmer v\u017edy \u00fatok.",
-        "Zadan\u00edm k\u00f3du zariadenia udel\u00edte \u00fato\u010dn\u00edkovi token pre pr\u00edstup k v\u00e1\u0161mu \u00fa\u010dtu \u2014 aj pri zapnutom MFA.",
-        "\u00dato\u010dn\u00edci sa \u010dasto vyd\u00e1vaj\u00fa za IT podporu prostredn\u00edctvom Teams, e-mailu alebo telef\u00f3nu.",
-        "Neo\u010dak\u00e1van\u00e9 po\u017eiadavky na overenie v\u017edy overujte kontaktovan\u00edm IT prostredn\u00edctvom zn\u00e1meho kan\u00e1la.",
-        "Leg\u00edtimna IT podpora v\u00e1s nikdy nebu\u010de \u017eiadat o zadanie k\u00f3du, ktor\u00fd ste sami nevygenerovali."
+        "Požiadavky na overenie kódom zariadenia, ktoré ste sami neiniciovali, sú takmer vždy útok.",
+        "Zadaním kódu zariadenia udelíte útočníkovi token pre prístup k vášmu účtu — aj pri zapnutom MFA.",
+        "Útočníci sa často vydávajú za IT podporu prostredníctvom Teams, e-mailu alebo telefónu.",
+        "Neočakávané požiadavky na overenie vždy overujte kontaktovaním IT prostredníctvom známeho kanála.",
+        "Legitímna IT podpora vás nikdy nebude žiadať o zadanie kódu, ktorý ste sami nevygenerovali."
       ],
       steps:[
         {
-          narrative:"<strong>14:15 \u2014 Dostali ste spr\u00e1vu v Teams</strong> od niekoho, kto sa vyd\u00e1va za pracovn\u00edka IT helpdesku. Hovor\u00ed, \u017ee je k dispoz\u00edcii kritick\u00e1 bezpe\u010dnostn\u00e1 aktualiz\u00e1cia. V\u0161imnete si, \u017ee t\u00fato osobu ste e\u0161te nikdy nevideli. \u010co urobíte?",
+          narrative:"<strong>14:15 — Dostali ste správu v Teams</strong> od niekoho, kto sa vydáva za pracovníka IT helpdesku. Hovorí, že je k dispozícii kritická bezpečnostná aktualizácia. Všimnete si, že túto osobu ste ešte nikdy nevideli. Čo urobíte?",
           chatData:{messages:[
-            {sender:"Tom\u00e1\u0161 Kov\u00e1\u010d \u2014 IT Helpdesk",avatar:"TK",text:"Dobr\u00fd deň! Dnes poobede zavádzame kritickú bezpe\u010dnostnú aktualiz\u00e1ciu pre v\u0161etky \u00fa\u010dty Office 365. Na jej aplik\u00e1ciu potrebujem overi\u0165 va\u0161u toto\u017enos\u0165."},
-            {sender:"Tom\u00e1\u0161 Kov\u00e1\u010d \u2014 IT Helpdesk",avatar:"TK",text:"Pros\u00edm, prejs\u0165te na <strong>microsoft.com/devicelogin</strong> a zadajte tento k\u00f3d. Zaberie v\u00e1m to len 30 sek\u00fand:"}
+            {sender:"Tomáš Kováč — IT Helpdesk",avatar:"TK",text:"Dobrý deň! Dnes poobede zavádzame kritickú bezpečnostnú aktualizáciu pre všetky účty Office 365. Na jej aplikáciu potrebujem overiť vašu totožnosť."},
+            {sender:"Tomáš Kováč — IT Helpdesk",avatar:"TK",text:"Prosím, prejdite na <strong>microsoft.com/devicelogin</strong> a zadajte tento kód. Zaberie vám to len 30 sekúnd:"}
           ]},
           choices:[
-            {text:"Prejs\u0165 na microsoft.com/devicelogin a zada\u0165 k\u00f3d, aby som dostal aktualiz\u00e1ciu.",feedback:"Zadan\u00edm tohto k\u00f3du by ste overili rel\u00e1ciu \u00fato\u010dn\u00edka s VA\u0160IMI prihlasovac\u00edmi \u00fadajmi! Phishing pomocou k\u00f3du zariadenia obch\u00e1dza MFA, preto\u017ee vy dokon\u010dujete overenie namiesto \u00fato\u010dn\u00edka."},
-            {text:'"Tom\u00e1\u0161a" po\u017eiada\u0165 o viac podrobnost\u00ed o aktualiz\u00e1cii sk\u00f4r, ne\u017e \u010dokoľvek zad\u00e1m.',feedback:"Komunik\u00e1cia s \u00fato\u010dn\u00edkom im d\u00e1va viac pr\u00edle\u017eito\u0165\u00ed v\u00e1s manipulova\u0165. Pravdepodobne bud\u00fa ma\u0165 pripraven\u00e9 presved\u010div\u00e9 odpovede. Namiesto toho overte cez nez\u00e1visl\u00fd, d\u00f4veryhodn\u00fd kan\u00e1l."},
-            {text:"Ni\u010d nezad\u00e1va\u0165. Overi\u0165 zavolan\u00edm IT helpdesku na \u010d\u00edsle z firemn\u00e9ho intranetu.",feedback:"Toto je najbezpe\u010dnej\u0161\u00ed pr\u00edstup. Overovanie cez d\u00f4veryhodn\u00fd, nez\u00e1visl\u00fd kan\u00e1l v\u00e1s chr\u00e1ni pred soci\u00e1lnym in\u017ein\u00e9rstvom. Skuto\u010dn\u00e9 IT oddelenie v\u00e1s nikdy nebu\u010de \u017eiadat o zadávanie k\u00f3dov, ktor\u00e9 ste sami nevygenerovali."},
-            {text:"Zada\u0165 k\u00f3d, ale pou\u017ei\u0165 in\u00fd profil prehlia\u010da\u010da pre bezpe\u010die.",feedback:"In\u00fd profil prehlia\u010da\u010da tu neposkytuje \u017eiadnu ochranu. Hne\u010f ako k\u00f3d zad\u00e1te a overíte sa, \u00fato\u010dn\u00edk dostane platn\u00fd token pre v\u00e1\u0161 \u00fa\u010det."}
+            {text:"Prejsť na microsoft.com/devicelogin a zadať kód, aby som dostal aktualizáciu.",feedback:"Zadaním tohto kódu by ste overili reláciu útočníka s VAŠIMI prihlasovacími údajmi! Phishing pomocou kódu zariadenia obchádza MFA, pretože vy dokončujete overenie namiesto útočníka."},
+            {text:'"Tomáša" požiadať o viac podrobností o aktualizácii skôr, než čokoľvek zadám.',feedback:"Komunikácia s útočníkom im dáva viac príležitostí vás manipulovať. Pravdepodobne budú mať pripravené presvedčivé odpovede. Namiesto toho overte cez nezávislý, dôveryhodný kanál."},
+            {text:"Nič nezadávať. Overiť zavolaním IT helpdesku na čísle z firemného intranetu.",feedback:"Toto je najbezpečnejší prístup. Overovanie cez dôveryhodný, nezávislý kanál vás chráni pred sociálnym inžinérstvom. Skutočné IT oddelenie vás nikdy nebude žiadať o zadávanie kódov, ktoré ste sami nevygenerovali."},
+            {text:"Zadať kód, ale použiť iný profil prehliadača pre bezpečie.",feedback:"Iný profil prehliadača tu neposkytuje žiadnu ochranu. Hneď ako kód zadáte a overíte sa, útočník dostane platný token pre váš účet."}
           ]
         },
         {
-          narrative:"Zavolali ste IT helpdesk na overenom \u010d\u00edsle z intranetu. Potvrd\u00edvaj\u00fa: <strong class=\"red-flag\">t\u00fato spr\u00e1vu neodoslali a dnes \u017eiadna bezpe\u010dnostn\u00e1 aktualiz\u00e1cia neprebieha.</strong> Ak\u00e9 je va\u0161e rozhodnutie?",
+          narrative:"Zavolali ste IT helpdesk na overenom čísle z intranetu. Potvrdzujú: <strong class=\"red-flag\">túto správu neodoslali a dnes žiadna bezpečnostná aktualizácia neprebieha.</strong> Aké je vaše rozhodnutie?",
           choices:[
-            {text:"Nahlási\u0165 incident a necha\u0165 IT vyšetri\u0165 kompromitovan\u00fd \u00fa\u010det.",feedback:"Nahlásenie umo\u017en\u00ed bezpe\u010dnostn\u00e9mu t\u00edmu deaktivova\u0165 kompromitovan\u00fd \u00fa\u010det, vyšetri\u0165 rozsah \u00fatoku a upozorni\u0165 ďalšie potenci\u00e1lne ciele. \u010cas je kritick\u00fd."},
-            {text:'Zablokova\u0165 "Tom\u00e1\u0161a Kov\u00e1\u010da" na Teams a zabudn\u00fa\u0165 na to.',feedback:"Blokovanie v\u00e1s chr\u00e1ni, ale \u00fato\u010dn\u00edk v tejto chv\u00edli pravdepodobne cieli na ostatn\u00fdch. Bez nahlásenia nem\u00f4\u017ee IT zastavi\u0165 šir\u0161\u00ed \u00fatok."},
-            {text:'"Tom\u00e1\u0161ovi" nap\u00edsa\u0165 spr\u00e1vu, aby vedel, \u017ee ste na podvod pri\u0161li.',feedback:"Upozornenie \u00fato\u010dn\u00edka im umo\u017en\u00ed zakry\u0165 stopy alebo zmeni\u0165 taktiku. Nahláste to ticho a nechajte bezpe\u010dnostn\u00fd t\u00edm kona\u0165."}
+            {text:"Nahlásiť incident a nechať IT vyšetriť kompromitovaný účet.",feedback:"Nahlásenie umožní bezpečnostnému tímu deaktivovať kompromitovaný účet, vyšetriť rozsah útoku a upozorniť ďalšie potenciálne ciele. Čas je kritický."},
+            {text:'Zablokovať "Tomáša Kováča" na Teams a zabudnúť na to.',feedback:"Blokovanie vás chráni, ale útočník v tejto chvíli pravdepodobne cieli na ostatných. Bez nahlásenia nemôže IT zastaviť širší útok."},
+            {text:'"Tomášovi" napísať správu, aby vedel, že ste na podvod prišli.',feedback:"Upozornenie útočníka im umožní zakryť stopy alebo zmeniť taktiku. Nahláste to ticho a nechajte bezpečnostný tím konať."}
           ]
         },
         {
-          narrative:"IT bezpe\u010dnostn\u00fd t\u00edm zistil, \u017ee \u00fa\u010det \u201eTom\u00e1\u0161a Kov\u00e1\u010da\u201c bol kompromitovan\u00fd pri skor\u0161om phishingovom \u00fatoku. \u00dato\u010dn\u00edk posielal \u017eiadosti o k\u00f3dy zariaden\u00ed desia\u0165kam zamestnancov. <br><br><strong>Z\u00e1vere\u010dn\u00e1 ot\u00e1zka:</strong> \u010co rob\u00ed phishing pomocou k\u00f3du zariadenia obzvl\u00e1š\u0165 nebezpe\u010dn\u00fdm?",
+          narrative:"IT bezpečnostný tím zistil, že účet „Tomáša Kováča“ bol kompromitovaný pri skoršom phishingovom útoku. Útočník posielal žiadosti o kódy zariadení desiaťkam zamestnancov. <br><br><strong>Záverečná otázka:</strong> Čo robí phishing pomocou kódu zariadenia obzvlášť nebezpečným?",
           choices:[
-            {text:"Obch\u00e1dza viacfaktorov\u00e9 overovanie, preto\u017ee obe\u0165 sama dokon\u010d\u00ed v\u00fdzvu MFA.",feedback:"Presne tak. Pri phishingu pomocou k\u00f3du zariadenia VY dokon\u010d\u00edte cel\u00e9 overenie \u2014 vr\u00e1tane MFA \u2014 a \u00fato\u010dn\u00edk dostane v\u00fdsledn\u00fd token. Preto je to tak nebezpe\u010dn\u00e9."},
-            {text:"In\u0161taluje malv\u00e9r na va\u0161e zariadenie.",feedback:"Phishing pomocou k\u00f3du zariadenia typicky nezah\u0155\u0148a malv\u00e9r. Jeho sila spo\u010d\u00edva v tom, \u017ee v\u00e1s prin\u00fati overi\u0165 sa namiesto \u00fato\u010dn\u00edka."},
-            {text:"Funguje iba na mobiln\u00fdch zariadeniach.",feedback:"Phishing pomocou k\u00f3du zariadenia funguje na akomko\u013evek zariaden\u00ed a prehlia\u010da\u010di. Str\u00e1nka microsoft.com/devicelogin je leg\u00edtimna funkcia Microsoftu \u2014 \u00fatok zneu\u017e\u00edva d\u00f4veru, ktor\u00fa jej pou\u017e\u00edvatelia venuj\u00fa."}
+            {text:"Obchádza viacfaktorové overovanie, pretože obeť sama dokončí výzvu MFA.",feedback:"Presne tak. Pri phishingu pomocou kódu zariadenia VY dokončíte celé overenie — vrátane MFA — a útočník dostane výsledný token. Preto je to tak nebezpečné."},
+            {text:"Inštaluje malvér na vaše zariadenie.",feedback:"Phishing pomocou kódu zariadenia typicky nezahŕňa malvér. Jeho sila spočíva v tom, že vás prinúti overiť sa namiesto útočníka."},
+            {text:"Funguje iba na mobilných zariadeniach.",feedback:"Phishing pomocou kódu zariadenia funguje na akomkoľvek zariadení a prehliadači. Stránka microsoft.com/devicelogin je legitímna funkcia Microsoftu — útok zneužíva dôveru, ktorú jej používatelia venujú."}
           ]
         }
       ]
     },
     vishing: {
-      title:"Naliehav\u00fd hovor o platbe",
-      desc:"Neo\u010dak\u00e1van\u00fd telef\u00f3nny hovor po\u017eaduje okam\u017eit\u00fa akciu v s\u00favislosti s \u00fadajne neuskuto\u010dnenou platbou.",
-      difficulty:"Stredn\u00e1", badge:"SOCI\u00c1LNE IN\u017dIN\u00cERSTVO",
+      title:"Naliehavý hovor o platbe",
+      desc:"Neočakávaný telefónny hovor požaduje okamžitú akciu v súvislosti s údajne neuskutočnenou platbou.",
+      difficulty:"Stredná", badge:"SOCIÁLNE INŽINIERSTVO",
       lessons:[
-        "Leg\u00edtimne banky a dodávatelia v\u00e1s nikdy nebu\u010d\u00fa tla\u010di\u0165, aby ste okam\u017eite sd\u011blili \u00fadaje o karte po telef\u00f3ne.",
-        "ID volaj\u00faceho m\u00f4\u017ee by\u0165 sfal\u0161ovan\u00e9 \u2014 zn\u00e1me \u010d\u00edslo nezaru\u010duje leg\u00edtimneho volaj\u00faceho.",
-        "V\u017edy zave\u0161te a zavolajte sp\u00e4\u0165 na \u010d\u00edslo z ofici\u00e1lnej webstr\u00e1nky alebo z va\u0161ej evidencie.",
-        "Taktiky n\u00e1tlaku ako naliehavos\u0165, hrozby straty slu\u017eby alebo agres\u00edvny t\u00f3n s\u00fa klasick\u00e9 varovn\u00e9 sign\u00e1ly soci\u00e1lneho in\u017ein\u00e9rstva.",
-        "Nikdy nikomu, kto v\u00e1m vol\u00e1, ne\u010d\u00eetajte \u00fapln\u00e9 \u010d\u00edsla k\u00e1rt, CVV k\u00f3dy ani PIN."
+        "Legitímne banky a dodávatelia vás nikdy nebudú tlačiť, aby ste okamžite oznamovali údaje o karte po telefóne.",
+        "ID volajúceho môže byť sfalšované — známe číslo nezaručuje legitímneho volajúceho.",
+        "Vždy zavešte a zavolajte späť na číslo z oficiálnej webstránky alebo z vašej evidencie.",
+        "Taktiky nátlaku ako naliehavosť, hrozby straty služby alebo agresívny tón sú klasické varovné signály sociálneho inžinérstva.",
+        "Nikdy nikomu, kto vám volá, nečítajte úplné čísla kariet, CVV kódy ani PIN."
       ],
       steps:[
         {
-          narrative:"<strong>15:30 \u2014 Zazvon\u00ed v\u00e1\u0161 stoln\u00fd telef\u00f3n.</strong> Volaj\u00faca tvrd\u00ed, \u017ee je od dod\u00e1vate\u013ea, ktor\u00e9ho va\u0161a firma skuto\u010dne vyu\u017e\u00edva. Zn\u00ed profesion\u00e1lne a naliehavo. Ako reagujete?",
+          narrative:"<strong>15:30 — Zazvoní váš stolný telefón.</strong> Volajúca tvrdí, že je od dodávateľa, ktorého vaša firma skutočne využíva. Znie profesionálne a naliehavo. Ako reagujete?",
           phoneData:{
-            caller:"Jana Hor\u00e1\u010dkov\u00e1",subtitle:"Fakt\u00fary dod\u00e1vate\u013eov \u2014 CloudSync Solutions",
-            transcript:"\"Dobr\u00fd de\u0148, som Jana Hor\u00e1\u010dkov\u00e1 z \u00fa\u010dtovn\u00e9ho oddelenia CloudSync Solutions. Vol\u00e1m, preto\u017ee va\u0161a posledn\u00e1 platba predplatn\u00e9ho vo v\u00fd\u0161ke <strong>4 200 \u20ac</strong> <strong>zlyhala</strong> a va\u0161e slu\u017eby bud\u00fa <strong>pozastaven\u00e9 dnes o 17:00</strong>, pokia\u013e okam\u017eite nespracujeme n\u00e1hradn\u00fa platbu. Potrebujem \u010d\u00edslo va\u0161ej firemnej kreditnej karty, aby som to mohla spracova\u0165 hne\u010f teraz.\""
+            caller:"Jana Horáčková",subtitle:"Faktúry dodávateľov — CloudSync Solutions",
+            transcript:"\"Dobrý deň, som Jana Horáčková z účtovného oddelenia CloudSync Solutions. Volám, pretože vaša posledná platba predplatného vo výške <strong>4 200 €</strong> <strong>zlyhala</strong> a vaše služby budú <strong>pozastavené dnes o 17:00</strong>, pokiaľ okamžite nespracujeme náhradnú platbu. Potrebujem číslo vašej firemnej kreditnej karty, aby som to mohla spracovať hneď teraz.\""
           },
           choices:[
-            {text:"Poskytn\u00fa\u0165 \u00fadaje o karte \u2014 nem\u00f4\u017eeme si dovoli\u0165 strati\u0165 t\u00fato slu\u017ebu!",feedback:"Nikdy neposkytujte platobn\u00e9 \u00fadaje prich\u00e1dzaj\u00facemu volaj\u00facemu. Podvodn\u00edci zis\u0165uj\u00fa, ktor\u00fdch dod\u00e1vate\u013eov firmy vyu\u017e\u00edvaj\u00fa, a vytv\u00e1raj\u00fa naliehavos\u0165, aby obišli v\u00e1\u0161 kritick\u00fd \u00fasudok. Toto je klasick\u00fd vishingow\u00fd \u00fatok."},
-            {text:"\"Mus\u00edm to overi\u0165. Zavolám na va\u0161e \u00fa\u010dtovn\u00e9 oddelenie na \u010d\u00edsle, ktor\u00e9 m\u00e1me v evidencii.\"",feedback:"Toto je spr\u00e1vna odpoveď. Zave\u0161enie a sp\u00e4tn\u00e9 zavolanie na overen\u00e9 \u010d\u00edslo prerus\u00ed kontrolu podvodn\u00edka nad rozhovorom. Leg\u00edtimni dod\u00e1vatelia pochopia a ocenia va\u0161u opatrnost."},
-            {text:"Po\u017eiada\u0165 Janu, aby overila niektor\u00e9 detaily \u00fa\u010dtu, aby prek\u00e1zala svoju leg\u00edtimnost.",feedback:"Podvodn\u00edci m\u00e1vaj\u00fa dostatok inform\u00e1ci\u00ed na to, aby zneli presved\u010divo \u2014 \u010d\u00edslo zmluvy, meno account mana\u017e\u00e9ra, platobná hist\u00f3ria. Ich \u201eoverenie\u201c ni\u010d nedokazuje."},
-            {text:"D\u00e1\u0165 ju na \u010dakanie, k\u00fdm r\u00fdchlo skontrolujete, \u010di platba skuto\u010dne zlyhala.",feedback:"Ponechanie podvodn\u00edka na linke zachov\u00e1va ich pr\u00edle\u017eitos\u0165 v\u00e1s pod tlakom. Najbezpe\u010dnej\u0161\u00edm pr\u00edstupom je hovor ukon\u010di\u0165 a zavola\u0165 sp\u00e4\u0165 na overen\u00e9 \u010d\u00edslo."}
+            {text:"Poskytnúť údaje o karte — nemôžeme si dovoliť stratiť túto službu!",feedback:"Nikdy neposkytujte platobné údaje prichádzajúcemu volajúcemu. Podvodníci zisťujú, ktorých dodávateľov firmy využívajú, a vytvárajú naliehavosť, aby obišli váš kritický úsudok. Toto je klasický vishingový útok."},
+            {text:"\"Musím to overiť. Zavolám na vaše účtovné oddelenie na čísle, ktoré máme v evidencii.\"",feedback:"Toto je správna odpoveď. Zavešenie a spätné zavolanie na overené číslo preruší kontrolu podvodníka nad rozhovorom. Legitímni dodávatelia pochopia a ocenia vašu opatrnosť."},
+            {text:"Požiadať Janu, aby overila niektoré detaily účtu, aby preukázala svoju legitímnosť.",feedback:"Podvodníci mávajú dostatok informácií na to, aby zneli presvedčivo — číslo zmluvy, meno account manažéra, platobná história. Ich „overenie“ nič nedokazuje."},
+            {text:"Dať ju na čakanie, kým rýchlo skontrolujete, či platba skutočne zlyhala.",feedback:"Ponechanie podvodníka na linke zachováva ich príležitosť vás pod tlakom. Najbezpečnejším prístupom je hovor ukončiť a zavolať späť na overené číslo."}
           ]
         },
         {
-          narrative:"Povedali ste \u201eJany\u201c, \u017ee zavol\u00e1te sp\u00e4\u0165. Stala sa znate\u013ene rozru\u0161enou: <em>\"Toto naozaj nem\u00f4\u017ee \u010daka\u0165 \u2014 ak va\u0161e slu\u017eby vypadnú, dotkne sa to cel\u00e9ho v\u00e1\u0161ho t\u00edmu. Potrebujem len \u010d\u00edslo karty a do 2 min\u00fat to vyrieš\u00edm.\"</em> V\u0161imli ste si <strong class=\"red-flag\">rast\u00faci tlak a naliehavos\u0165</strong>. \u010co urobíte?",
+          narrative:"Povedali ste „Jane“, že zavoláte späť. Stala sa znateľne rozrušenou: <em>\"Toto naozaj nemôže čakať — ak vaše služby vypadnú, dotkne sa to celého vášho tímu. Potrebujem len číslo karty a do 2 minút to vyrieším.\"</em> Všimli ste si <strong class=\"red-flag\">rastúci tlak a naliehavosť</strong>. Čo urobíte?",
           choices:[
-            {text:"Vydr\u017ea\u0165 \u2014 zave\u0161i\u0165 a zavola\u0165 CloudSync na \u010d\u00edsle z ich ofici\u00e1lnej webstr\u00e1nky.",feedback:"Eskaluj\u00faci tlak je d\u00f4le\u017eit\u00fd varovn\u00fd sign\u00e1l. Leg\u00edtimne firmy v\u00e1s takto nikdy pod tlak nestavia. Zave\u0161en\u00edm a nez\u00e1visl\u00fdm overen\u00edm si zachov\u00e1te kontrolu."},
-            {text:"Ust\u00fapi\u0165, preto\u017ee tlak nara\u0161\u010d\u00e1 a zn\u00ed to ako skuto\u010dn\u00e1 n\u00fadza.",feedback:"Tlak JE \u00fatok. Podvodn\u00edci s\u00fa vycvi\u010den\u00ed na eskalovanie naliehavosti pr\u00e1ve vtedy, ke\u010f odol\u00e1vate. \u010c\u00edm beznádejnejšie znej\u00fa, t\u00fdm pravdepodobnejšie ide o podvod."},
-            {text:"Pon\u00faknu\u0165 platbu bankov\u00fdm prevodom namiesto kartou pre v\u00e4\u010dšiu bezpe\u010dnos\u0165.",feedback:"Zmena sp\u00f4sobu platby ju nerobí bezpe\u010dnej\u0161ou \u2014 st\u00e1le by ste posielali peniaze podvodn\u00edkovi. Sp\u00f4sob platby nie je probl\u00e9mom; neoveren\u00fd volaj\u00faci n\u00edm je."}
+            {text:"Vydržať — zavešiť a zavolať CloudSync na čísle z ich oficiálnej webstránky.",feedback:"Eskalujúci tlak je dôležitý varovný signál. Legítimne firmy vás takto nikdy pod tlak nestavia. Zavešením a nezávislým overením si zachováte kontrolu."},
+            {text:"Ustúpiť, pretože tlak narastá a zní to ako skutočná núdza.",feedback:"Tlak JE útok. Podvodníci sú vycvičení na eskalovanie naliehavosti práve vtedy, keď odolávate. Čím beznádejnejšie znejú, tým pravdepodobnejšie ide o podvod."},
+            {text:"Ponúknuť platbu bankovým prevodom namiesto kartou pre väčšiu bezpečnosť.",feedback:"Zmena spôsobu platby ju nerobí bezpečnejšou — stále by ste posielali peniaze podvodníkovi. Spôsob platby nie je problémom; neoverený volajúci ním je."}
           ]
         },
         {
-          narrative:"Zavolali ste CloudSync na ich overenom \u010d\u00edsle. Ich <em>skuto\u010dn\u00fd</em> \u00fa\u010dtovn\u00fd t\u00edm potvrdil: <strong>va\u0161a platba prebehla \u00faspe\u0161ne minul\u00fd t\u00fd\u017ede\u0148 a \u017eiadna Jana Hor\u00e1\u010dkov\u00e1 u nich nepracuje.</strong> <br><br><strong>Z\u00e1vere\u010dn\u00e1 ot\u00e1zka:</strong> \u010co by mala va\u0161a firma urobi\u0165, aby predch\u00e1dzala bud\u00fac\u00edm vishingow\u00fdm \u00fatokom?",
+          narrative:"Zavolali ste CloudSync na ich overenom čísle. Ich <em>skutočný</em> účtovný tím potvrdil: <strong>vaša platba prebehla úspešne minulý týždeň a žiadna Jana Horáčková u nich nepracuje.</strong> <br><br><strong>Záverečná otázka:</strong> Čo by mala vaša firma urobiť, aby predchádzala budúcim vishingovým útokom?",
           choices:[
-            {text:"Stanovi\u0165 pravidlo, \u017ee platobn\u00e9 inform\u00e1cie nie s\u00fa nikdy poskytovan\u00e9 prich\u00e1dzaj\u00fac\u00edm volaj\u00facim, a zavies\u0165 postup overovacieho sp\u00e4tn\u00e9ho volania.",feedback:"Jasn\u00e1 politika odstra\u0148uje nejednozna\u010dnos\u0165, ktor\u00fa podvodn\u00edci zneu\u017e\u00edvaj\u00fa. Ke\u010f plat\u00ed pravidlo \u201eplatby v prich\u00e1dzaj\u00facich hovoroch nikdy nespracov\u00e1vame\u201c, zamestnanci m\u00f4\u017eu s istotou odmietnu\u0165."},
-            {text:"Zablokova\u0165 telef\u00f3nne \u010d\u00edslo, z ktor\u00e9ho bolo volan\u00e9.",feedback:"Podvodn\u00edci pou\u017e\u00edvaj\u00fa sfal\u0161ovan\u00e9 \u010d\u00edsla a ka\u017ed\u00fa chv\u00ed\u013eu vol\u00e1j\u00fa z in\u00fdch \u010d\u00edsel. Blokovanie jedného \u010d\u00edsla poskytuje minim\u00e1lnu ochranu. Syst\u00e9mov\u00e9 politiky a školenia s\u00fa omnoho \u00fa\u010dinnejšie."},
-            {text:"Spracov\u00e1va\u0165 platby len e-mailom namiesto telefonicky.",feedback:"Podvody s platbami cez e-mail (Business Email Compromise) s\u00fa rovnako \u010dast\u00e9 a nebezpe\u010dn\u00e9. Rieš\u00edm s\u00fa overovacie postupy, nie zmena komunika\u010dn\u00e9ho kan\u00e1la."}
+            {text:"Stanoviť pravidlo, že platobné informácie nie sú nikdy poskytované volajúcim v prichádzajúcich hovoroch, a zaviesť postup overovacieho spätného volania.",feedback:"Jasná politika odstraňuje nejednoznačnosť, ktorú podvodníci zneužívajú. Keď platí pravidlo „platby v prichádzajúcich hovoroch nikdy nespracovávame“, zamestnanci môžu s istotou odmietnuť."},
+            {text:"Zablokovať telefónne číslo, z ktorého bolo volané.",feedback:"Podvodníci používajú sfalšované čísla a každú chvíľu volajú z iných čísel. Blokovanie jedného čísla poskytuje minimálnu ochranu. Systémové politiky a školenia sú omnoho účinnejšie."},
+            {text:"Spracovávať platby len e-mailom namiesto telefonicky.",feedback:"Podvody s platbami cez e-mail (Business Email Compromise) sú rovnako časté a nebezpečné. Riešením sú overovacie postupy, nie zmena komunikačného kanála."}
           ]
         }
       ]
     },
     insider: {
-      title:"\u017diados\u0165 o skratku",
-      desc:"Kolega v\u00e1s \u017eiada, aby ste obi\u0161li pravidl\u00e1 pr\u00edstupu k syst\u00e9mu. Zd\u00e1 sa, \u017ee m\u00e1 dobr\u00fd d\u00f4vod...",
-      difficulty:"T\u0165a\u017ek\u00e1", badge:"VNUT\u00d3RNA HROZBA",
+      title:"Žiadosť o skratku",
+      desc:"Kolega vás žiada, aby ste obišli pravidlá prístupu k systému. Zdá sa, že má dobrý dôvod...",
+      difficulty:"Ťažká", badge:"VNÚTORNÁ HROZBA",
       lessons:[
-        "Procesy riadenia pr\u00edstupu existuj\u00fa na ochranu organiz\u00e1cie \u2014 neexistuj\u00fa \u017eiadne \u201enevinné\u201c skratky.",
-        "Aj d\u00f4veryhodn\u00ed kolegovia by mali dodr\u017eiava\u0165 riadne schvaľovacie postupy pre \u017eiadosti o pr\u00edstup.",
-        "Udelenie neopr\u00e1vnen\u00e9ho pr\u00edstupu m\u00f4\u017ee poru\u0161ova\u0165 po\u017eiadavky na s\u00fald s predpismi a vytv\u00e1ra\u0165 zlyhania auditu.",
-        "Soci\u00e1lne in\u017ein\u00e9rstvo neprich\u00e1dza len zvonku \u2014 tlak od koleg\u00f3v m\u00f4\u017ee by\u0165 rovnako manipulat\u00edvny.",
-        "V pr\u00edpade pochybnost\u00ed eskalujte na sv\u00f4jho mana\u017e\u00e9ra alebo vlastn\u00edka syst\u00e9mu, sk\u00f4r ne\u017e sami udelíte pr\u00edstup."
+        "Procesy riadenia prístupu existujú na ochranu organizácie — neexistujú žiadne „nevinné“ skratky.",
+        "Aj dôveryhodní kolegovia by mali dodržiavať riadne schvaľovacie postupy pre žiadosti o prístup.",
+        "Udelenie neoprávneného prístupu môže porušovať požiadavky na súlad s predpismi a vytvárať zlyhania auditu.",
+        "Sociálne inžinérstvo neprichádza len zvonku — tlak od kolegov môže byť rovnako manipulatívny.",
+        "V prípade pochybností eskalujte na svojho manažéra alebo vlastníka systému, skôr než sami udelíte prístup."
       ],
       steps:[
         {
-          narrative:"<strong>13:45 \u2014 Spr\u00e1va v Teams od Martina.</strong> Martina z marketingu pozn\u00e1te \u2014 je ob\u013e\u00faben\u00fd a toto zn\u00ed ako skuto\u010dn\u00fd \u010dasov\u00fd tlak. Ale \u017eiada v\u00e1s, aby ste obišli proces schvaľovania pr\u00edstupu. \u010co urobíte?",
+          narrative:"<strong>13:45 — Správa v Teams od Martina.</strong> Martina z marketingu poznáte — je obľúbený a toto zní ako skutočný časový tlak. Ale žiada vás, aby ste obišli proces schvaľovania prístupu. Čo urobíte?",
           chatData:{messages:[
-            {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"Ahoj! Mal\u00e1 l\u00e1skavos\u0165 \u2014 potrebujem okam\u017eit\u00fd pr\u00edstup k dashboardu analytiky z\u00e1kazn\u00edkov. Moja \u017eiadosť o pr\u00edstup sa zasekla v rade na schválenie a o 16:00 m\u00e1m prezent\u00e1ciu pre predstavenstvo."},
-            {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"Mohol/a by si jednoducho zdie\u013ea\u0165 prihlasovacie \u00fadaje alebo ma prida\u0165 ako preh\u013ead\u00e1vaj\u00faceho? Je to aj tak len na \u010d\u00edtanie, ni\u010d sa nestane. Pod\u00e1m riadnu \u017eiados\u0165 pot\u00f3m, \u013eub\u00edm! \ud83d\ude4f"}
+            {sender:"Martin Dvořák — Manažér marketingu",avatar:"MD",text:"Ahoj! Malá láskavosť — potrebujem okamžitý prístup k dashboardu analytiky zákazníkov. Moja žiadosť o prístup sa zasekla v rade na schválenie a o 16:00 mám prezentáciu pre predstavenstvo."},
+            {sender:"Martin Dvořák — Manažér marketingu",avatar:"MD",text:"Mohol/a by si jednoducho zdieľať prihlasovacie údaje alebo ma pridať ako prehliadajúceho? Je to aj tak len na čítanie, nič sa nestane. Podám riadnu žiadosť potom, sľubujem! 🙏"}
           ]},
           choices:[
-            {text:"Zdie\u013ea\u0165 prihlasovacie \u00fadaje len tentokr\u00e1t \u2014 Martin je d\u00f4veryhodn\u00fd a ide len o \u010d\u00edtanie.",feedback:"Nikdy nezdieľajte prihlasovacie \u00fadaje, ani s d\u00f4veryhodn\u00fdmi kolegami. Zdie\u013ean\u00e9 \u00fadaje znemož\u0148uj\u00fa audit, kto k \u010domu pristupoval, poru\u0161uj\u00fa compliance a ak sa nie\u010do pokaz\u00ed, nesiete zodpovednos\u0165 vy."},
-            {text:"Prida\u0165 Martina ako preh\u013ead\u00e1vaj\u00faceho, preto\u017ee ide len o pr\u00edstup na \u010d\u00edtanie \u2014 ak\u00e1 je \u0161koda?",feedback:"\u201eLen na \u010d\u00edtanie\u201c neznamená bez rizika. Udelenie neopr\u00e1vnen\u00e9ho pr\u00edstupu obch\u00e1dza schvaľovacie procesy, ktor\u00e9 existuj\u00fa z regula\u010dn\u00fdch, pr\u00e1vnych a bezpe\u010dnostn\u00fdch d\u00f4vodov."},
-            {text:"Vysvetli\u0165, \u017ee nem\u00f4\u017eem obíj\u0165 proces, a pon\u00faknu\u0165 pomoc s urýchlen\u00edm leg\u00edtimnej \u017eiadosti.",feedback:"To je spr\u00e1vna rovnov\u00e1ha medzi by\u0165 n\u00e1pomocn\u00fd a bezpe\u010dn\u00fd. M\u00f4\u017eete Martinovi pom\u00f4c\u0165 priamo kontaktova\u0165 schvaľovate\u013ea alebo navrhn\u00fa\u0165, aby po\u017eiadal svojho mana\u017e\u00e9ra o urýchlenie."},
-            {text:"Spr\u00e1vu ignorova\u0165 \u2014 nie je to m\u00f4j probl\u00e9m.",feedback:"Ignorovanie \u017eiadosti nie je ide\u00e1lne. By\u0165 n\u00e1pomocn\u00fd a nasmerova\u0165 Martina na spr\u00e1vny postup buduje pozit\u00edvnu bezpe\u010dnostn\u00fa kult\u00faru. Ignorovanie ho m\u00f4\u017ee prin\u00fati\u0165 h\u013eada\u0165 menej bezpe\u010dn\u00e9 riešenia."}
+            {text:"Zdieľať prihlasovacie údaje len tentokrát — Martin je dôveryhodný a ide len o čítanie.",feedback:"Nikdy nezdieľajte prihlasovacie údaje, ani s dôveryhodnými kolegami. Zdieľané údaje znemožňujú audit, kto k čomu pristupoval, porušujú compliance a ak sa niečo pokazí, nesiete zodpovednosť vy."},
+            {text:"Pridať Martina ako prehliadajúceho, pretože ide len o prístup na čítanie — aká je škoda?",feedback:"„Len na čítanie“ neznamená bez rizika. Udelenie neoprávneného prístupu obchádza schvaľovacie procesy, ktoré existujú z regulačných, právnych a bezpečnostných dôvodov."},
+            {text:"Vysvetliť, že nemôžem obísť proces, a ponúknuť pomoc s urýchlením legitímnej žiadosti.",feedback:"To je správna rovnováha medzi tým byť nápomocný a zároveň bezpečný. Môžete Martinovi pomôcť priamo kontaktovať schvaľovateľa alebo navrhnúť, aby požiadal svojho manažéra o urýchlenie."},
+            {text:"Správu ignorovať — nie je to môj problém.",feedback:"Ignorovanie žiadosti nie je ideálne. Byť nápomocný a nasmerovať Martina na správny postup buduje pozitívnu bezpečnostnú kultúru. Ignorovanie ho môže prinútiť hľadať menej bezpečné riešenia."}
           ]
         },
         {
-          narrative:"Martin trv\u00e1 na svojom s <strong class=\"red-flag\">emocion\u00e1lnym tlakom a tvrden\u00edmi o \u00fastnom schválení</strong>. Situ\u00e1cia sa st\u00e1va nep\u0159\u00edjemnou. Ak\u00fd je v\u00e1\u0161 \u0165ah?",
+          narrative:"Martin trvá na svojom s <strong class=\"red-flag\">emocionálnym tlakom a tvrdeniami o ústnom schválení</strong>. Situácia sa stáva nepríjemnou. Aký je váš ťah?",
           chatData:{messages:[
-            {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"No tak, schvaľovac\u00ed proces trv\u00e1 DNI a toto je pre PREDSTAVENSTVO. M\u00f4j mana\u017e\u00e9r to u\u017e \u00fastne schv\u00e1lil, \u010dak\u00e1 len na tiket. Chceš ma naozaj necha\u0165 vyzeratourdane zle pred riadite\u013eom?"},
-            {sender:"Martin Dvo\u0159\u00e1k \u2014 Mana\u017e\u00e9r marketingu",avatar:"MD",text:"Pozri, nikomu to nepoviem. Len 20 min\u00fat pr\u00edstupu, potom ho pokojne odvolaj. Pros\u00edm? \ud83d\ude29"}
+            {sender:"Martin Dvořák — Manažér marketingu",avatar:"MD",text:"No tak, schvaľovací proces trvá DNI a toto je pre PREDSTAVENSTVO. Môj manažér to už ústne schválil, čaká len na tiket. Chceš ma naozaj nechať vyzerať zle pred riaditeľmi?"},
+            {sender:"Martin Dvořák — Manažér marketingu",avatar:"MD",text:"Pozri, nikomu to nepoviem. Len 20 minút prístupu, potom ho pokojne odvolaj. Prosím? 😩"}
           ]},
           choices:[
-            {text:"Ust\u00fapi\u0165 \u2014 emocion\u00e1lny tlak je pr\u00edli\u0161 ve\u013ek\u00fd a oni zrejme schválenie naozaj maj\u00fa.",feedback:"\u201e\u00dastne schválenie\u201c je z h\u013eadiska compliance neovrrite\u013en\u00e9 a bezvýznamné. Eskaluj\u00faci tlak, emocion\u00e1lne apely a tajnostk\u00e1rstvo s\u00fa u\u010debnicov\u00e9 taktiky soci\u00e1lneho in\u017ein\u00e9rstva \u2014 aj zo strany insiderov."},
-            {text:"Zdvorilo trva\u0165 na svojom a navrhn\u00fa\u0165, aby Martinov mana\u017e\u00e9r kontaktoval vlastn\u00edka syst\u00e9mu oh\u013eadom urýchlenia schválenia.",feedback:"Ak mana\u017e\u00e9r schválenie skuto\u010dne udelil, m\u00f4\u017ee ho form\u00e1lne eskalova\u0165 v priebehu min\u00fat. T\u00fdm sa zachov\u00e1va proces a z\u00e1rove\u0148 sa Martinovi pon\u00faka leg\u00edtimna r\u00fdchla cesta."},
-            {text:"Op\u00fdta\u0165 sa vlastn\u00e9ho mana\u017e\u00e9ra, \u010di je v poriadku urobi\u0165 v\u00fdnimku.",feedback:"Hoci eskalovanie sved\u010d\u00ed o dobrom inštinkte, \u017eiadanie od svojho mana\u017e\u00e9ra, aby schv\u00e1lil obch\u00e1dzanie, st\u00e1le obch\u00e1dza zaven\u00fd proces. Spr\u00e1vnou cestou je pom\u00e1ha\u0165 Martinovi pracova\u0165 v r\u00e1mci syst\u00e9mu."}
+            {text:"Ustúpiť — emocionálny tlak je príliš veľký a oni zrejme schválenie naozaj majú.",feedback:"„Ústne schválenie“ je z hľadiska compliance neoveriteľné a bezvýznamné. Eskalujúci tlak, emocionálne apely a tajnostkárstvo sú učebnicové taktiky sociálneho inžinérstva — aj zo strany insiderov."},
+            {text:"Zdvorilo trvať na svojom a navrhnúť, aby Martinov manažér kontaktoval vlastníka systému ohľadom urýchlenia schválenia.",feedback:"Ak manažér schválenie skutočne udelil, môže ho formálne eskalovať v priebehu minút. Tým sa zachováva proces a zároveň sa Martinovi ponúka legitímna rýchla cesta."},
+            {text:"Opýtať sa vlastného manažéra, či je v poriadku urobiť výnimku.",feedback:"Hoci eskalovanie svedčí o dobrom inštinkte, žiadanie od svojho manažéra, aby schválil obchádzanie, stále obchádza zavedený proces. Správnou cestou je pomáhať Martinovi pracovať v rámci systému."}
           ]
         },
         {
-          narrative:"Martinov mana\u017e\u00e9r urýchlil schválenie spr\u00e1vnym kan\u00e1lom a Martin dostal pr\u00edstup do 30 min\u00fat \u2014 v\u010das na prezent\u00e1ciu pre predstavenstvo. <br><br>IT bezpe\u010dnostn\u00fd t\u00edm zmienil ned\u00e1vny n\u00e1rast <strong>pokusov o neopr\u00e1vnen\u00fd pr\u00edstup</strong>. Va\u0161a svedomitos\u0165 pomohla udr\u017eia\u0165 va\u0161u organiz\u00e1ciu v s\u00falade s predpismi. <br><br><strong>Z\u00e1vere\u010dn\u00e1 ot\u00e1zka:</strong> Pre\u010do s\u00fa intern\u00e9 \u017eiadosti o obch\u00e1dzanie pravidiel obzvl\u00e1š\u0165 nebezpe\u010dn\u00e9, aj ke\u010f s\u00fa mienen\u00e9 v dobrej v\u00f4li?",
+          narrative:"Martinov manažér urýchlil schválenie správnym kanálom a Martin dostal prístup do 30 minút — včas na prezentáciu pre predstavenstvo. <br><br>IT bezpečnostný tím zmienil nedávny nárast <strong>pokusov o neoprávnený prístup</strong>. Vaša svedomitosť pomohla udržať vašu organizáciu v súlade s predpismi. <br><br><strong>Záverečná otázka:</strong> Prečo sú interné žiadosti o obchádzanie pravidiel obzvlášť nebezpečné, aj keď sú mienené v dobrej viere?",
           choices:[
-            {text:"Naru\u0161uj\u00fa kult\u00faru riadenia pr\u00edstupu \u2014 ka\u017ed\u00e1 v\u00fdnimka u\u013eah\u010duje od\u00f4vodnenie ďalšieho obch\u00e1dzania.",feedback:"Presne tak. Jedna \u201enevinná\u201c skratka normalizuje obch\u00e1dzanie kontrol. Postupom \u010dasu to vytvára prostredie, kde s\u00fa spr\u00e1vne postupy vn\u00edman\u00e9 ako priek\u00e1\u017eky sk\u00f4r ne\u017e ochrana."},
-            {text:"Preto\u017ee \u017eiadate\u013e je v\u017edy z\u00e1\u0161kodn\u00edk\u00fd insider.",feedback:"V\u00e4\u010d\u0161ina \u017eiadost\u00ed o obch\u00e1dzanie poch\u00e1dza od dobre mienen\u00fdch \u013eud\u00ed pod \u010dasov\u00fdm tlakom \u2014 ako Martin. Nebezpe\u010denstvom nie je zl\u00fd \u00famysel; je to preceden\u0165, ktor\u00fd sa t\u00fdm vytvára."},
-            {text:"Je to nebezpe\u010dn\u00e9 len vtedy, ke\u010f osoba z\u00edska pr\u00edstup na z\u00e1pis.",feedback:"Aj pr\u00edstup len na \u010d\u00edtanie k citliv\u00fdm d\u00e1tam (z\u00e1znamy z\u00e1kazn\u00edkov, finan\u010dn\u00e9 d\u00e1ta, strategick\u00e9 pl\u00e1ny) m\u00f4\u017ee sp\u00f4sobi\u0165 v\u00e1\u017ene \u0161kody. \u00darove\u0148 pr\u00edstupu neur\u010duje riziko \u2014 opr\u00e1vnenie ho ur\u010duje."}
+            {text:"Narušujú kultúru riadenia prístupu — každá výnimka uľahčuje odôvodnenie ďalšieho obchádzania.",feedback:"Presne tak. Jedna „nevinná“ skratka normalizuje obchádzanie kontrol. Postupom času to vytvára prostredie, kde sú správne postupy vnímané ako prekážky skôr než ochrana."},
+            {text:"Pretože žiadateľ je vždy záškodnický insider.",feedback:"Väčšina žiadostí o obchádzanie pochádza od dobre mienených ľudí pod časovým tlakom — ako Martin. Nebezpečenstvom nie je zlý úmysel; je to precedens, ktorý sa tým vytvára."},
+            {text:"Je to nebezpečné len vtedy, keď osoba získa prístup na zápis.",feedback:"Aj prístup len na čítanie k citlivým dátam (záznamy zákazníkov, finančné dáta, strategické plány) môže spôsobiť vážne škody. Úroveň prístupu neurčuje riziko — oprávnenie ho určuje."}
           ]
         }
       ]
