@@ -1965,18 +1965,38 @@ function generatePDF() {
   });
 }
 
+function _toGrayscale(canvas) {
+  var ctx = canvas.getContext('2d');
+  var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  var d = imgData.data;
+  for (var i = 0; i < d.length; i += 4) {
+    var lum = 0.299 * d[i] + 0.587 * d[i + 1] + 0.114 * d[i + 2];
+    d[i] = d[i + 1] = d[i + 2] = lum;
+  }
+  ctx.putImageData(imgData, 0, 0);
+}
+
 function _buildPDF(jsPDFLib, html2canvas) {
   var certEl = document.querySelector('.cert-preview');
-  var scale = 2;
-  html2canvas(certEl, { scale: scale, useCORS: true, backgroundColor: null }).then(function(canvas) {
-    var imgData = canvas.toDataURL('image/png');
-    var doc = new jsPDFLib.jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' });
-    var w = 297, h = 210;
-    var margin = 10;
-    var imgW = w - margin * 2;
-    var imgH = (canvas.height / canvas.width) * imgW;
+  var scale = 1.5;
+  html2canvas(certEl, { scale: scale, useCORS: true, backgroundColor: '#ffffff' }).then(function(canvas) {
+    _toGrayscale(canvas);
+    var imgData = canvas.toDataURL('image/jpeg', 0.9);
+    var doc = new jsPDFLib.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+    var w = 210, h = 297;
+    var margin = 15;
+    var maxW = w - margin * 2;
+    var maxH = h - margin * 2;
+    var ratio = canvas.height / canvas.width;
+    var imgW = maxW;
+    var imgH = imgW * ratio;
+    if (imgH > maxH) {
+      imgH = maxH;
+      imgW = imgH / ratio;
+    }
+    var offsetX = (w - imgW) / 2;
     var offsetY = (h - imgH) / 2;
-    doc.addImage(imgData, 'PNG', margin, offsetY, imgW, imgH);
+    doc.addImage(imgData, 'JPEG', offsetX, offsetY, imgW, imgH, undefined, 'FAST');
     var filename = 'CyberQuest_Certificate_' + state.playerName.replace(/\s+/g,'_') + '.pdf';
     try {
       doc.save(filename);
